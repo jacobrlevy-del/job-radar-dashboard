@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>Job Radar — Jacob Levy</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f0f2f5;min-height:100vh;color:#111}
+
+/* ── Header ── */
+.header{background:#111;color:#fff;padding:14px 20px;position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.header-left h1{font-size:17px;font-weight:700;letter-spacing:-0.3px}
+.header-left p{font-size:11px;color:#aaa;margin-top:2px}
+.header-right button{padding:6px 12px;background:rgba(255,255,255,0.1);color:#fff;border:1px solid rgba(255,255,255,0.2);border-radius:6px;font-size:12px;cursor:pointer}
+.header-right button:hover{background:rgba(255,255,255,0.2)}
+
+/* ── Summary bar ── */
+.summary-bar{display:flex;gap:8px;padding:12px 16px;overflow-x:auto;background:#fff;border-bottom:1px solid #eee;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.summary-bar::-webkit-scrollbar{display:none}
+.chip{flex-shrink:0;padding:6px 13px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;border:2px solid transparent;transition:all .15s;white-space:nowrap}
+.chip.active{border-color:currentColor;box-shadow:0 0 0 1px currentColor inset}
+.chip-all{background:#e5e7eb;color:#374151}
+.chip-new{background:#dbeafe;color:#1d4ed8}
+.chip-applied{background:#ede9fe;color:#6d28d9}
+.chip-interviewing{background:#fef3c7;color:#b45309}
+.chip-keep{background:#d1fae5;color:#065f46}
+.chip-irrelevant{background:#f3f4f6;color:#6b7280}
+
+/* ── Cards ── */
+.jobs{padding:14px 14px 80px;display:flex;flex-direction:column;gap:12px;max-width:700px;margin:0 auto}
+
+.card{background:#fff;border-radius:12px;padding:16px;box-shadow:0 1px 4px rgba(0,0,0,.07);border-left:3px solid transparent;transition:border-color .2s,opacity .2s}
+.card[data-status="applied"]{border-left-color:#6d28d9}
+.card[data-status="interviewing"]{border-left-color:#b45309}
+.card[data-status="keep_for_later"]{border-left-color:#065f46}
+.card[data-status="irrelevant"]{opacity:.45}
+.card[data-status="new"]{border-left-color:#1d4ed8}
+
+.score-badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:10px}
+.score-high{background:#d1fae5;color:#065f46}
+.score-mid{background:#fef3c7;color:#92400e}
+
+.card h2{font-size:15px;font-weight:700;color:#111;line-height:1.3;margin-bottom:3px}
+.card .company{font-size:13px;font-weight:600;color:#059669;margin-bottom:8px}
+.card .description{font-size:13px;color:#555;line-height:1.55;margin-bottom:14px}
+
+.card-footer{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.apply-btn{padding:7px 14px;background:#111;color:#fff;text-decoration:none;border-radius:6px;font-size:12px;font-weight:600;flex-shrink:0;transition:background .15s}
+.apply-btn:hover{background:#333}
+.status-select{flex:1;min-width:160px;padding:7px 10px;border:1.5px solid #e5e7eb;border-radius:6px;font-size:12px;background:#fff;cursor:pointer;color:#333;appearance:auto}
+.status-select:focus{outline:none;border-color:#111}
+.saving-dot{font-size:11px;color:#aaa;margin-left:4px;display:none}
+.saving-dot.visible{display:inline}
+
+/* ── States ── */
+.state-msg{text-align:center;padding:60px 20px;color:#888;font-size:14px;line-height:1.6}
+.spinner{width:30px;height:30px;border:3px solid #e5e7eb;border-top-color:#111;border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 16px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── Setup modal ── */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:200;padding:20px;backdrop-filter:blur(2px)}
+.modal{background:#fff;border-radius:16px;padding:28px;max-width:420px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+.modal h2{font-size:19px;margin-bottom:8px}
+.modal p{font-size:13px;color:#555;margin-bottom:18px;line-height:1.6}
+.modal label{font-size:12px;font-weight:600;color:#374151;display:block;margin-bottom:6px}
+.modal input{width:100%;padding:10px 12px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:14px;margin-bottom:16px;font-family:monospace}
+.modal input:focus{outline:none;border-color:#111}
+.modal button{width:100%;padding:12px;background:#111;color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer}
+.modal button:hover{background:#333}
+
+/* ── Date badge ── */
+.date-badge{font-size:11px;color:#9ca3af;margin-left:6px;font-weight:400}
+
+@media(min-width:640px){
+  .summary-bar{padding:14px 24px;gap:10px}
+  .jobs{padding:20px 24px 80px}
+  .card{padding:20px}
+  .card h2{font-size:16px}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>&#x1F4E1; Job Radar</h1>
+    <p id="header-sub">Loading your matches...</p>
+  </div>
+  <div class="header-right">
+    <button onclick="showSetup()">&#x1F511; Token</button>
+  </div>
+</div>
+
+<div class="summary-bar" id="summary-bar"></div>
+
+<div class="jobs" id="jobs-container">
+  <div class="state-msg"><div class="spinner"></div>Fetching your job matches...</div>
+</div>
+
+<div class="modal-overlay" id="setup-modal" style="display:none">
+  <div class="modal">
+    <h2>&#x1F511; Connect Job Radar</h2>
+    <p>Enter your GitHub Personal Access Token to load and sync your job decisions. It is stored only in this browser — never sent anywhere except GitHub.</p>
+    <label>GitHub Token</label>
+    <input type="password" id="token-input" placeholder="ghp_..." autocomplete="off" onkeydown="if(event.key==='Enter')saveToken()">
+    <button onclick="saveToken()">Connect &#x2192;</button>
+  </div>
+</div>
+
+<script>
+const OWNER  = 'jacobrlevy-del';
+const REPO   = 'job-radar-dashboard';
+const FILE   = 'jobs_db.json';
+const API    = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`;
+
+let db      = { version: 1, jobs: [] };
+let fileSha = null;
+let token   = localStorage.getItem('jr_token') || '';
+let filter  = 'all';
+let pending = null; // debounced save timer
+
+const STATUS_LABELS = {
+  new:            '&#x1F195; New',
+  keep_for_later: '&#x1F516; Keep for later',
+  applied:        '&#x2705; Applied',
+  interviewing:   '&#x1F5D3; Interview in progress',
+  irrelevant:     '&#x274C; Irrelevant',
+};
+const CHIP_CLS = {
+  all:'chip-all', new:'chip-new', applied:'chip-applied',
+  interviewing:'chip-interviewing', keep_for_later:'chip-keep', irrelevant:'chip-irrelevant'
+};
+
+// ── Boot ──────────────────────────────────────────────────────────────────
+window.addEventListener('DOMContentLoaded', () => {
+  if (!token) showSetup(); else loadData();
+});
+
+function showSetup() {
+  document.getElementById('setup-modal').style.display = 'flex';
+  document.getElementById('token-input').value = token;
+}
+
+function saveToken() {
+  const v = document.getElementById('token-input').value.trim();
+  if (!v) return;
+  token = v;
+  localStorage.setItem('jr_token', token);
+  document.getElementById('setup-modal').style.display = 'none';
+  loadData();
+}
+
+// ── GitHub API ────────────────────────────────────────────────────────────
+async function apiGet() {
+  const r = await fetch(API, {
+    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
+  });
+  if (r.status === 401) { showSetup(); throw new Error('Invalid token'); }
+  if (!r.ok) throw new Error(`GitHub ${r.status}`);
+  const d = await r.json();
+  fileSha = d.sha;
+  return JSON.parse(atob(d.content.replace(/\n/g, '')));
+}
+
+async function apiPut(updatedDb) {
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(updatedDb, null, 2))));
+  const r = await fetch(API, {
+    method: 'PUT',
+    headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message: 'Update job status', content, sha: fileSha }),
+  });
+  if (!r.ok) { const e = await r.json(); throw new Error(e.message); }
+  const resp = await r.json();
+  fileSha = resp.content?.sha || fileSha;
+}
+
+// ── Load & render ─────────────────────────────────────────────────────────
+async function loadData() {
+  document.getElementById('jobs-container').innerHTML =
+    '<div class="state-msg"><div class="spinner"></div>Fetching your job matches...</div>';
+  try {
+    db = await apiGet();
+    render();
+  } catch (e) {
+    document.getElementById('jobs-container').innerHTML =
+      `<div class="state-msg">&#x26A0;&#xFE0F; Could not load jobs.<br><small style="color:#aaa">${e.message}</small></div>`;
+  }
+}
+
+function counts() {
+  const c = { all: db.jobs.length, new: 0, applied: 0, interviewing: 0, keep_for_later: 0, irrelevant: 0 };
+  db.jobs.forEach(j => { if (c[j.status] !== undefined) c[j.status]++; });
+  return c;
+}
+
+function render() {
+  const c = counts();
+
+  document.getElementById('header-sub').textContent =
+    `${c.all} total  ·  ${c.new} new  ·  ${c.applied} applied  ·  ${c.interviewing} interviewing`;
+
+  // Summary chips
+  const chipDefs = [
+    ['all',          `All (${c.all})`],
+    ['new',          `&#x1F195; New (${c.new})`],
+    ['applied',      `&#x2705; Applied (${c.applied})`],
+    ['interviewing', `&#x1F5D3; Interviewing (${c.interviewing})`],
+    ['keep_for_later',`&#x1F516; Keep for later (${c.keep_for_later})`],
+    ['irrelevant',   `&#x274C; Irrelevant (${c.irrelevant})`],
+  ];
+  document.getElementById('summary-bar').innerHTML = chipDefs.map(([key, label]) =>
+    `<div class="chip ${CHIP_CLS[key] || 'chip-all'} ${filter===key?'active':''}" onclick="setFilter('${key}')">${label}</div>`
+  ).join('');
+
+  // Visible jobs
+  const visible = filter === 'all' ? db.jobs : db.jobs.filter(j => j.status === filter);
+  const container = document.getElementById('jobs-container');
+
+  if (visible.length === 0) {
+    const msgs = {
+      all: 'No jobs yet — they will appear here after the next Job Radar run.',
+      new: 'No new jobs — check Applied or other tabs.',
+      applied: 'No applications tracked yet.',
+      interviewing: 'No active interviews.',
+      keep_for_later: 'No saved jobs.',
+      irrelevant: 'Nothing marked irrelevant.',
+    };
+    container.innerHTML = `<div class="state-msg">${msgs[filter] || 'Nothing here.'}</div>`;
+    return;
+  }
+
+  container.innerHTML = visible.map(job => {
+    const score    = job.score || 0;
+    const badgeCls = score >= 75 ? 'score-high' : 'score-mid';
+    const added    = job.added_date ? `<span class="date-badge">· ${job.added_date}</span>` : '';
+    const opts     = Object.entries(STATUS_LABELS).map(([val, lbl]) =>
+      `<option value="${val}"${job.status===val?' selected':''}>${lbl}</option>`
+    ).join('');
+
+    return `<div class="card" data-id="${esc(job.id)}" data-status="${esc(job.status)}">
+  <span class="score-badge ${badgeCls}">${score}% match</span>${added}
+  <h2>${esc(job.title)}</h2>
+  <div class="company">${esc(job.company)}${job.location ? ' &nbsp;&middot;&nbsp; ' + esc(job.location) : ''}</div>
+  <div class="description">${esc(job.description)}</div>
+  <div class="card-footer">
+    ${job.url ? `<a href="${esc(job.url)}" target="_blank" rel="noopener" class="apply-btn">View &amp; Apply &#x2192;</a>` : ''}
+    <select class="status-select" onchange="updateStatus('${esc(job.id)}', this.value)">${opts}</select>
+    <span class="saving-dot" id="dot-${esc(job.id)}">saving&#x2026;</span>
+  </div>
+</div>`;
+  }).join('');
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function setFilter(f) { filter = f; render(); }
+
+async function updateStatus(id, newStatus) {
+  const job = db.jobs.find(j => j.id === id);
+  if (!job) return;
+  job.status = newStatus;
+
+  // Optimistic UI update
+  const card = document.querySelector(`.card[data-id="${id}"]`);
+  if (card) card.dataset.status = newStatus;
+  const dot = document.getElementById('dot-' + id);
+  if (dot) dot.classList.add('visible');
+
+  // Debounce: wait 800ms then save
+  clearTimeout(pending);
+  pending = setTimeout(async () => {
+    try {
+      await apiPut(db);
+      render(); // re-render to update chips + filter
+    } catch (e) {
+      alert('Could not save: ' + e.message);
+    } finally {
+      if (dot) dot.classList.remove('visible');
+    }
+  }, 800);
+}
+</script>
+</body>
+</html>
