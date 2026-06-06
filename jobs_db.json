@@ -1,1 +1,21 @@
-{ "version": 1, "jobs": [] }
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "5b164b226b3d",
+      "url": "https://il.linkedin.com/jobs/view/credit-financial-risk-officer-at-esh-3796455375",
+      "title": "Credit & Financial Risk Officer",
+      "company": "ESH",
+      "location": "Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Senior banking risk role with focus on credit and financial risk management, reporting to CRO",
+      "match_tags": [
+        "Risk",
+        "Credit Risk",
+        "Financial Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-06-06"
+    }
+  ]
+}
