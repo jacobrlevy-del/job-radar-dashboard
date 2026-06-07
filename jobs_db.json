@@ -2,6 +2,54 @@
   "version": 1,
   "jobs": [
     {
+      "id": "7fc24ec0c967",
+      "url": "https://www.glassdoor.com/job-listing/compliance-analyst-walkme-JV_KO0,18_KE19,25.htm?jl=1010082671513",
+      "title": "Compliance Analyst",
+      "company": "WalkMe",
+      "location": "Israel",
+      "score": 72,
+      "description": "Compliance analyst role reporting to GRC Team Leader. Relevant to Jacob's compliance expertise and team lead experience.",
+      "match_tags": [
+        "Compliance",
+        "GRC",
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "e0f711d9537f",
+      "url": "https://www.glassdoor.com/job-listing/risk-director-nayax-JV_KO0,13_KE14,19.htm?jl=1010131949498",
+      "title": "Global Risk Officer",
+      "company": "Nayax",
+      "location": "Israel",
+      "score": 73,
+      "description": "Global Risk Officer role requiring 5-10 years risk management experience. Relevant to Jacob's regulatory risk and team leadership background.",
+      "match_tags": [
+        "Risk",
+        "Risk Management",
+        "Financial"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "e89796267cd4",
+      "url": "https://www.glassdoor.com/job-listing/kyc-analyst-melio-JV_KO0,11_KE12,17.htm?jl=1010123773349",
+      "title": "KYC Analyst",
+      "company": "Melio",
+      "location": "Israel",
+      "score": 78,
+      "description": "KYC Analyst role at fintech company. Jacob's core KYC expertise makes this a strong fit despite analyst-level seniority.",
+      "match_tags": [
+        "KYC",
+        "FinTech",
+        "Regulatory"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
       "id": "766942d69bfd",
       "url": "https://www.linkedin.com/jobs/view/4418281290",
       "title": "TMS Analyst",
