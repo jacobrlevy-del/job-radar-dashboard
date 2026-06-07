@@ -2,6 +2,134 @@
   "version": 1,
   "jobs": [
     {
+      "id": "4319263a0105",
+      "url": "https://www.glassdoor.com/job-listing/cyber-and-tech-underwriter-at-bay-JV_KO0,26_KE27,33.htm",
+      "title": "Cyber & Tech Underwriter",
+      "company": "At-Bay",
+      "location": "Israel",
+      "score": 68,
+      "description": "Underwriter role in specialty commercial insurance. Relevant to Jacob's underwriting background, though cyber-focused rather than fintech compliance.",
+      "match_tags": [
+        "Underwriting",
+        "Risk Assessment",
+        "Insurance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "598dd4ee946b",
+      "url": "https://www.glassdoor.com/job-listing/compliance-analyst-walkme-JV_KO0,18_KE19,25.htm",
+      "title": "Compliance Analyst",
+      "company": "WalkMe",
+      "location": "Israel",
+      "score": 70,
+      "description": "Compliance analyst role reporting to GRC Team Leader. Matches Jacob's compliance expertise and team leadership experience.",
+      "match_tags": [
+        "Compliance",
+        "GRC",
+        "Team Leadership"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "f9f415cc79f9",
+      "url": "https://il.linkedin.com/jobs/view/enterprise-risk-manager-at-revolut-4365861553",
+      "title": "Enterprise Risk Manager",
+      "company": "Revolut",
+      "location": "Israel",
+      "score": 74,
+      "description": "Enterprise risk manager at fintech company. Strong match for Jacob's fintech and regulatory risk expertise.",
+      "match_tags": [
+        "Risk Management",
+        "Fintech",
+        "Regulatory"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "6658cadb8795",
+      "url": "https://il.linkedin.com/jobs/view/risk-compliance-specialist-jb-201-at-pwc-israel-4003840738",
+      "title": "Risk & Compliance Specialist",
+      "company": "PwC Israel",
+      "location": "Tel Aviv, Israel",
+      "score": 75,
+      "description": "Risk and compliance specialist role implementing compliance standards and policies. Strong match for Jacob's regulatory risk and compliance expertise.",
+      "match_tags": [
+        "Compliance",
+        "Risk Management",
+        "Standards"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "e80de814fac5",
+      "url": "https://www.glassdoor.com/job-listing/risk-director-nayax-JV_KO0,13_KE14,19.htm",
+      "title": "Global Risk Officer",
+      "company": "Nayax",
+      "location": "Israel",
+      "score": 76,
+      "description": "Risk officer role at fintech company requiring 5-10 years experience in risk function. Good fit for Jacob's regulatory risk and underwriting background.",
+      "match_tags": [
+        "Risk Management",
+        "Regulatory",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "b1852c1a553a",
+      "url": "https://il.linkedin.com/jobs/view/compliance-officer-at-rapyd-4288158430",
+      "title": "Compliance Officer",
+      "company": "Rapyd",
+      "location": "Tel Aviv District, Israel",
+      "score": 78,
+      "description": "Direct compliance role at fintech company with 7+ years requirement. Strong match for Jacob's compliance and regulatory background.",
+      "match_tags": [
+        "Compliance",
+        "Fintech",
+        "Regulatory"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "b05189f4198a",
+      "url": "https://www.glassdoor.com/job-listing/kyc-analyst-melio-JV_KO0,11_KE12,17.htm",
+      "title": "KYC Analyst",
+      "company": "Melio",
+      "location": "Israel",
+      "score": 79,
+      "description": "KYC analyst role at fintech company requiring 1+ years fintech experience. Strong match for Jacob's core KYC and fintech compliance expertise.",
+      "match_tags": [
+        "KYC",
+        "Fintech",
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "b56c882fa5ab",
+      "url": "https://il.linkedin.com/jobs/view/risk-underwriter-at-icic-israel-credit-insurance-company-2890266607",
+      "title": "Risk Underwriter",
+      "company": "ICIC - Israel Credit Insurance Company",
+      "location": "Israel",
+      "score": 80,
+      "description": "Risk underwriter role managing credit risks and business analysis. Direct match for Jacob's underwriting and risk management expertise.",
+      "match_tags": [
+        "Underwriting",
+        "Risk Management",
+        "Credit Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
       "id": "5b164b226b3d",
       "url": "https://il.linkedin.com/jobs/view/credit-financial-risk-officer-at-esh-3796455375",
       "title": "Credit & Financial Risk Officer",
