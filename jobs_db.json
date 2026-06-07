@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "1a956ff94876",
+      "url": "https://www.linkedin.com/jobs/view/4408188455/",
+      "title": "Compliance Operations Analyst",
+      "company": "Cellebrite",
+      "location": "Petah Tikva, Israel",
+      "score": 80,
+      "description": "Design, build and optimize compliance processes with focus on automation and scalability. Translates regulatory requirements into operational workflows, conducts risk assessments and supports audit responses across global operations.",
+      "match_tags": [
+        "Compliance",
+        "Risk",
+        "Regulatory",
+        "Operations"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
       "id": "4319263a0105",
       "url": "https://www.glassdoor.com/job-listing/cyber-and-tech-underwriter-at-bay-JV_KO0,26_KE27,33.htm",
       "title": "Cyber & Tech Underwriter",
