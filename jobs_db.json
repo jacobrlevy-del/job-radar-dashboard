@@ -2,6 +2,39 @@
   "version": 1,
   "jobs": [
     {
+      "id": "36dbc95c4cf2",
+      "url": "https://www.glassdoor.com/job-listing/cyber-and-tech-underwriter-at-bay-JV_KO0,26_KE27,33.htm?jl=1010138039061",
+      "title": "Cyber & Tech Underwriter",
+      "company": "At-Bay",
+      "location": "Israel",
+      "score": 68,
+      "description": "Underwriting role in insurance sector. Relevant to Jacob's underwriting expertise though specialty underwriting focus is less directly aligned.",
+      "match_tags": [
+        "Underwriting",
+        "Commercial",
+        "Insurance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "e4a0bf863420",
+      "url": "https://il.linkedin.com/jobs/view/sr-manager-risk-compliance-officer-israel-at-paypal-4262582994",
+      "title": "Sr. Manager- Risk & Compliance Officer, Israel",
+      "company": "PayPal",
+      "location": "Israel",
+      "score": 88,
+      "description": "Strong match with deep knowledge of Israel's regulatory environment and hands-on compliance experience. Senior level aligns with Jacob's background.",
+      "match_tags": [
+        "Risk",
+        "Compliance",
+        "Regulatory",
+        "Israel-focused"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
       "id": "7fc24ec0c967",
       "url": "https://www.glassdoor.com/job-listing/compliance-analyst-walkme-JV_KO0,18_KE19,25.htm?jl=1010082671513",
       "title": "Compliance Analyst",
