@@ -2,16 +2,16 @@
   "version": 1,
   "jobs": [
     {
-      "id": "36dbc95c4cf2",
-      "url": "https://www.glassdoor.com/job-listing/cyber-and-tech-underwriter-at-bay-JV_KO0,26_KE27,33.htm?jl=1010138039061",
+      "id": "4319263a0105",
+      "url": "https://www.glassdoor.com/job-listing/cyber-and-tech-underwriter-at-bay-JV_KO0,26_KE27,33.htm",
       "title": "Cyber & Tech Underwriter",
       "company": "At-Bay",
       "location": "Israel",
       "score": 68,
-      "description": "Underwriting role in insurance sector. Relevant to Jacob's underwriting expertise though specialty underwriting focus is less directly aligned.",
+      "description": "Underwriter role in specialty commercial insurance. Relevant to Jacob's underwriting background, though cyber-focused rather than fintech compliance.",
       "match_tags": [
         "Underwriting",
-        "Commercial",
+        "Risk Assessment",
         "Insurance"
       ],
       "status": "interviewing",
@@ -35,49 +35,49 @@
       "added_date": "2026-06-07"
     },
     {
-      "id": "7fc24ec0c967",
-      "url": "https://www.glassdoor.com/job-listing/compliance-analyst-walkme-JV_KO0,18_KE19,25.htm?jl=1010082671513",
+      "id": "598dd4ee946b",
+      "url": "https://www.glassdoor.com/job-listing/compliance-analyst-walkme-JV_KO0,18_KE19,25.htm",
       "title": "Compliance Analyst",
       "company": "WalkMe",
       "location": "Israel",
-      "score": 72,
-      "description": "Compliance analyst role reporting to GRC Team Leader. Relevant to Jacob's compliance expertise and team lead experience.",
+      "score": 70,
+      "description": "Compliance analyst role reporting to GRC Team Leader. Matches Jacob's compliance expertise and team leadership experience.",
       "match_tags": [
         "Compliance",
         "GRC",
-        "Risk"
+        "Team Leadership"
       ],
       "status": "irrelevant",
       "added_date": "2026-06-07"
     },
     {
-      "id": "e0f711d9537f",
-      "url": "https://www.glassdoor.com/job-listing/risk-director-nayax-JV_KO0,13_KE14,19.htm?jl=1010131949498",
+      "id": "e80de814fac5",
+      "url": "https://www.glassdoor.com/job-listing/risk-director-nayax-JV_KO0,13_KE14,19.htm",
       "title": "Global Risk Officer",
       "company": "Nayax",
       "location": "Israel",
-      "score": 73,
-      "description": "Global Risk Officer role requiring 5-10 years risk management experience. Relevant to Jacob's regulatory risk and team leadership background.",
+      "score": 76,
+      "description": "Risk officer role at fintech company requiring 5-10 years experience in risk function. Good fit for Jacob's regulatory risk and underwriting background.",
       "match_tags": [
-        "Risk",
         "Risk Management",
-        "Financial"
+        "Regulatory",
+        "Fintech"
       ],
       "status": "irrelevant",
       "added_date": "2026-06-07"
     },
     {
-      "id": "e89796267cd4",
-      "url": "https://www.glassdoor.com/job-listing/kyc-analyst-melio-JV_KO0,11_KE12,17.htm?jl=1010123773349",
+      "id": "b05189f4198a",
+      "url": "https://www.glassdoor.com/job-listing/kyc-analyst-melio-JV_KO0,11_KE12,17.htm",
       "title": "KYC Analyst",
       "company": "Melio",
       "location": "Israel",
-      "score": 78,
-      "description": "KYC Analyst role at fintech company. Jacob's core KYC expertise makes this a strong fit despite analyst-level seniority.",
+      "score": 79,
+      "description": "KYC analyst role at fintech company requiring 1+ years fintech experience. Strong match for Jacob's core KYC and fintech compliance expertise.",
       "match_tags": [
         "KYC",
-        "FinTech",
-        "Regulatory"
+        "Fintech",
+        "Compliance"
       ],
       "status": "irrelevant",
       "added_date": "2026-06-07"
@@ -118,38 +118,6 @@
       "added_date": "2026-06-07"
     },
     {
-      "id": "4319263a0105",
-      "url": "https://www.glassdoor.com/job-listing/cyber-and-tech-underwriter-at-bay-JV_KO0,26_KE27,33.htm",
-      "title": "Cyber & Tech Underwriter",
-      "company": "At-Bay",
-      "location": "Israel",
-      "score": 68,
-      "description": "Underwriter role in specialty commercial insurance. Relevant to Jacob's underwriting background, though cyber-focused rather than fintech compliance.",
-      "match_tags": [
-        "Underwriting",
-        "Risk Assessment",
-        "Insurance"
-      ],
-      "status": "interviewing",
-      "added_date": "2026-06-07"
-    },
-    {
-      "id": "598dd4ee946b",
-      "url": "https://www.glassdoor.com/job-listing/compliance-analyst-walkme-JV_KO0,18_KE19,25.htm",
-      "title": "Compliance Analyst",
-      "company": "WalkMe",
-      "location": "Israel",
-      "score": 70,
-      "description": "Compliance analyst role reporting to GRC Team Leader. Matches Jacob's compliance expertise and team leadership experience.",
-      "match_tags": [
-        "Compliance",
-        "GRC",
-        "Team Leadership"
-      ],
-      "status": "irrelevant",
-      "added_date": "2026-06-07"
-    },
-    {
       "id": "f9f415cc79f9",
       "url": "https://il.linkedin.com/jobs/view/enterprise-risk-manager-at-revolut-4365861553",
       "title": "Enterprise Risk Manager",
@@ -182,22 +150,6 @@
       "added_date": "2026-06-07"
     },
     {
-      "id": "e80de814fac5",
-      "url": "https://www.glassdoor.com/job-listing/risk-director-nayax-JV_KO0,13_KE14,19.htm",
-      "title": "Global Risk Officer",
-      "company": "Nayax",
-      "location": "Israel",
-      "score": 76,
-      "description": "Risk officer role at fintech company requiring 5-10 years experience in risk function. Good fit for Jacob's regulatory risk and underwriting background.",
-      "match_tags": [
-        "Risk Management",
-        "Regulatory",
-        "Fintech"
-      ],
-      "status": "irrelevant",
-      "added_date": "2026-06-07"
-    },
-    {
       "id": "b1852c1a553a",
       "url": "https://il.linkedin.com/jobs/view/compliance-officer-at-rapyd-4288158430",
       "title": "Compliance Officer",
@@ -209,22 +161,6 @@
         "Compliance",
         "Fintech",
         "Regulatory"
-      ],
-      "status": "irrelevant",
-      "added_date": "2026-06-07"
-    },
-    {
-      "id": "b05189f4198a",
-      "url": "https://www.glassdoor.com/job-listing/kyc-analyst-melio-JV_KO0,11_KE12,17.htm",
-      "title": "KYC Analyst",
-      "company": "Melio",
-      "location": "Israel",
-      "score": 79,
-      "description": "KYC analyst role at fintech company requiring 1+ years fintech experience. Strong match for Jacob's core KYC and fintech compliance expertise.",
-      "match_tags": [
-        "KYC",
-        "Fintech",
-        "Compliance"
       ],
       "status": "irrelevant",
       "added_date": "2026-06-07"
