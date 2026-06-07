@@ -2,6 +2,24 @@
   "version": 1,
   "jobs": [
     {
+      "id": "766942d69bfd",
+      "url": "https://www.linkedin.com/jobs/view/4418281290",
+      "title": "TMS Analyst",
+      "company": "Melio",
+      "location": "Tel Aviv, Israel",
+      "score": 82,
+      "description": "Analyze transaction data to detect suspicious activities and ensure AML/BSA compliance. Investigate alerts from automated monitoring systems, conduct due diligence, prepare Suspicious Activity Reports, and collaborate cross-functionally to improve processes.",
+      "match_tags": [
+        "AML",
+        "Compliance",
+        "TMS",
+        "KYC",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-06-07"
+    },
+    {
       "id": "1a956ff94876",
       "url": "https://www.linkedin.com/jobs/view/4408188455/",
       "title": "Compliance Operations Analyst",
