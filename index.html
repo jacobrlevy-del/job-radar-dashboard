@@ -123,6 +123,7 @@ let fileSha = null;
 let token   = localStorage.getItem('jr_token') || '';
 let filter  = 'all';
 let pending = null; // debounced save timer
+let pendingChanges = {}; // {jobId: newStatus} accumulated until the debounced save fires
 
 const STATUS_LABELS = {
   new:            '&#x1F195; New',
@@ -280,11 +281,27 @@ async function updateStatus(id, newStatus) {
   const dot = document.getElementById('dot-' + id);
   if (dot) dot.classList.add('visible');
 
-  // Debounce: wait 800ms then save
+  // Track pending status changes locally; debounce, then merge onto the
+  // LATEST remote copy before saving (avoids clobbering jobs added/changed
+  // elsewhere — e.g. by the Job Radar bot or another open tab/device).
+  pendingChanges[id] = newStatus;
   clearTimeout(pending);
   pending = setTimeout(async () => {
+    const changes = pendingChanges;
+    pendingChanges = {};
     try {
-      await apiPut(db);
+      // Re-fetch latest from GitHub
+      const latest = await apiGet();
+      // Apply our pending status changes on top of the latest data
+      latest.jobs.forEach(j => { if (changes[j.id] !== undefined) j.status = changes[j.id]; });
+      // Also include any jobs that exist locally but not remotely yet (rare,
+      // e.g. a save raced with a server-side push) — keep them, our status wins
+      const remoteIds = new Set(latest.jobs.map(j => j.id));
+      db.jobs.forEach(j => {
+        if (!remoteIds.has(j.id)) latest.jobs.push(j);
+      });
+      await apiPut(latest);
+      db = latest;
       render(); // re-render to update chips + filter
     } catch (e) {
       alert('Could not save: ' + e.message);
