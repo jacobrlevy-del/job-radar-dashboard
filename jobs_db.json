@@ -2,6 +2,40 @@
   "version": 1,
   "jobs": [
     {
+      "id": "22b2a6d96bdf",
+      "url": "https://www.linkedin.com/jobs/view/4393026706/",
+      "title": "Operational Risk Manager",
+      "company": "Revolut",
+      "location": "South Africa",
+      "score": 70,
+      "description": "Establish operational risk management frameworks locally, implementing governance structures, conducting risk assessments, managing incidents, and overseeing third-party compliance. Requires 5+ years in risk management with control frameworks and fintech risk expertise.",
+      "match_tags": [
+        "Risk Management",
+        "Operational Risk",
+        "Fintech",
+        "Governance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "08ae9666f519",
+      "url": "https://www.linkedin.com/jobs/view/4317228186",
+      "title": "Operations Manager, Middle East",
+      "company": "Airwallex",
+      "location": "Tel Aviv-Yafo, Israel",
+      "score": 75,
+      "description": "Newly created role overseeing Middle East operations, including managing compliance operations, optimizing processes, and monitoring regional payment and treasury operations. Requires 6+ years fintech/consulting experience and Hebrew/English fluency.",
+      "match_tags": [
+        "Compliance",
+        "Operations",
+        "Fintech",
+        "Risk"
+      ],
+      "status": "applied",
+      "added_date": "2026-06-08"
+    },
+    {
       "id": "4319263a0105",
       "url": "https://www.glassdoor.com/job-listing/cyber-and-tech-underwriter-at-bay-JV_KO0,26_KE27,33.htm",
       "title": "Cyber & Tech Underwriter",
