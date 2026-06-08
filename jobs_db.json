@@ -8,10 +8,11 @@
       "company": "Fraud Data Analyst",
       "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
       "score": 70,
-      "description": "Posted 11:24:16 AM. Company DescriptionWeÃ¢ÂÂre Checkout.com. You might not know our name, but companies like eBayÃ¢ÂÂ¦See this and similar jobs on LinkedIn.",
+      "description": "Posted 11:24:16 AM. Company DescriptionWe\u00c3\u00a2\u00c2\u0080\u00c2\u0099re Checkout.com. You might not know our name, but companies like eBay\u00c3\u00a2\u00c2\u0080\u00c2\u00a6See this and similar jobs on LinkedIn.",
       "match_tags": [],
       "status": "irrelevant",
-      "added_date": "2026-06-08"
+      "added_date": "2026-06-08",
+      "source": "manual"
     },
     {
       "id": "c9b153fbd8a3",
@@ -20,10 +21,11 @@
       "company": "Business Risk Manager",
       "location": "Israel",
       "score": 70,
-      "description": "Posted 1:12:24 PM. About RevolutPeople deserve more from their money. More visibility, more control, and more freedom.Ã¢ÂÂ¦See this and similar jobs on LinkedIn.",
+      "description": "Posted 1:12:24 PM. About RevolutPeople deserve more from their money. More visibility, more control, and more freedom.\u00c3\u00a2\u00c2\u0080\u00c2\u00a6See this and similar jobs on LinkedIn.",
       "match_tags": [],
       "status": "irrelevant",
-      "added_date": "2026-06-08"
+      "added_date": "2026-06-08",
+      "source": "manual"
     },
     {
       "id": "22b2a6d96bdf",
@@ -40,7 +42,8 @@
         "Governance"
       ],
       "status": "applied",
-      "added_date": "2026-06-08"
+      "added_date": "2026-06-08",
+      "source": "manual"
     },
     {
       "id": "08ae9666f519",
@@ -57,7 +60,8 @@
         "Risk"
       ],
       "status": "applied",
-      "added_date": "2026-06-08"
+      "added_date": "2026-06-08",
+      "source": "manual"
     },
     {
       "id": "4319263a0105",
@@ -156,7 +160,8 @@
         "Fintech"
       ],
       "status": "irrelevant",
-      "added_date": "2026-06-07"
+      "added_date": "2026-06-07",
+      "source": "manual"
     },
     {
       "id": "1a956ff94876",
@@ -173,7 +178,8 @@
         "Operations"
       ],
       "status": "interviewing",
-      "added_date": "2026-06-07"
+      "added_date": "2026-06-07",
+      "source": "manual"
     },
     {
       "id": "f9f415cc79f9",
