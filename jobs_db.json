@@ -2,13 +2,31 @@
   "version": 1,
   "jobs": [
     {
+      "id": "e3665fd1ac7b",
+      "url": "https://il.linkedin.com/jobs/view/kyc-cdd-transactions-risk-specialist-at-altshuler-shaham-financial-services-4312017192",
+      "title": "KYC/CDD & Transactions Risk Specialist",
+      "company": "Altshuler Shaham Financial Services",
+      "location": "Tel Aviv District, Israel",
+      "score": 88,
+      "description": "Excellent match combining KYC, CDD, transaction risk assessment, and regulatory compliance. Israeli financial services company in Jacob's core expertise area.",
+      "match_tags": [
+        "KYC",
+        "AML",
+        "Risk",
+        "Fintech",
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-08"
+    },
+    {
       "id": "d33138186047",
       "url": "https://www.linkedin.com/jobs/view/4411198404",
       "title": "Checkout.com",
       "company": "Fraud Data Analyst",
       "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
       "score": 70,
-      "description": "Posted 11:24:16 AM. Company DescriptionWe\u00c3\u00a2\u00c2\u0080\u00c2\u0099re Checkout.com. You might not know our name, but companies like eBay\u00c3\u00a2\u00c2\u0080\u00c2\u00a6See this and similar jobs on LinkedIn.",
+      "description": "Posted 11:24:16 AM. Company DescriptionWeÃ¢ÂÂre Checkout.com. You might not know our name, but companies like eBayÃ¢ÂÂ¦See this and similar jobs on LinkedIn.",
       "match_tags": [],
       "status": "irrelevant",
       "added_date": "2026-06-08",
@@ -21,7 +39,7 @@
       "company": "Business Risk Manager",
       "location": "Israel",
       "score": 70,
-      "description": "Posted 1:12:24 PM. About RevolutPeople deserve more from their money. More visibility, more control, and more freedom.\u00c3\u00a2\u00c2\u0080\u00c2\u00a6See this and similar jobs on LinkedIn.",
+      "description": "Posted 1:12:24 PM. About RevolutPeople deserve more from their money. More visibility, more control, and more freedom.Ã¢ÂÂ¦See this and similar jobs on LinkedIn.",
       "match_tags": [],
       "status": "irrelevant",
       "added_date": "2026-06-08",
