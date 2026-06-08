@@ -14,6 +14,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .header{background:#111;color:#fff;padding:14px 20px;position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .header-left h1{font-size:17px;font-weight:700;letter-spacing:-0.3px}
 .header-left p{font-size:11px;color:#aaa;margin-top:2px}
+.header-right{display:flex;gap:8px}
 .header-right button{padding:6px 12px;background:rgba(255,255,255,0.1);color:#fff;border:1px solid rgba(255,255,255,0.2);border-radius:6px;font-size:12px;cursor:pointer}
 .header-right button:hover{background:rgba(255,255,255,0.2)}
 
@@ -72,6 +73,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .modal input:focus{outline:none;border-color:#111}
 .modal button{width:100%;padding:12px;background:#111;color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer}
 .modal button:hover{background:#333}
+.modal textarea, .modal select{width:100%;padding:10px 12px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:14px;margin-bottom:16px;font-family:inherit;resize:vertical}
+.modal textarea:focus, .modal select:focus{outline:none;border-color:#111}
+.modal-scroll{max-height:80vh;overflow-y:auto}
+.modal .hint{font-size:11px;color:#9ca3af;margin:-12px 0 16px}
 
 /* ── Date badge ── */
 .date-badge{font-size:11px;color:#9ca3af;margin-left:6px;font-weight:400}
@@ -92,6 +97,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
     <p id="header-sub">Loading your matches...</p>
   </div>
   <div class="header-right">
+    <button onclick="showAddJob()">&#x2795; Add job</button>
     <button onclick="showSetup()">&#x1F511; Token</button>
   </div>
 </div>
@@ -100,6 +106,34 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 
 <div class="jobs" id="jobs-container">
   <div class="state-msg"><div class="spinner"></div>Fetching your job matches...</div>
+</div>
+
+<div class="modal-overlay" id="addjob-modal" style="display:none">
+  <div class="modal modal-scroll">
+    <h2>&#x2795; Add a job</h2>
+    <p>Paste the job link, pick a status, and (optionally) fill in the details. We'll try to auto-fill the title/company from the link when possible — otherwise just enter them yourself.</p>
+
+    <label>Job URL</label>
+    <input type="text" id="aj-url" placeholder="https://www.linkedin.com/jobs/view/..." autocomplete="off">
+
+    <label>Title</label>
+    <input type="text" id="aj-title" placeholder="e.g. Compliance Analyst" autocomplete="off">
+
+    <label>Company</label>
+    <input type="text" id="aj-company" placeholder="e.g. Acme Inc." autocomplete="off">
+
+    <label>Location</label>
+    <input type="text" id="aj-location" placeholder="e.g. Tel Aviv, Israel" autocomplete="off">
+
+    <label>Description / notes</label>
+    <textarea id="aj-description" rows="3" placeholder="Short summary of the role (optional)"></textarea>
+
+    <label>Status</label>
+    <select id="aj-status"></select>
+    <p class="hint" id="aj-error" style="color:#dc2626;display:none"></p>
+
+    <button onclick="submitAddJob()">Add to dashboard &#x2192;</button>
+  </div>
 </div>
 
 <div class="modal-overlay" id="setup-modal" style="display:none">
@@ -143,6 +177,92 @@ const CHIP_CLS = {
 window.addEventListener('DOMContentLoaded', () => {
   if (!token) showSetup(); else loadData();
 });
+
+// ── Add job modal ─────────────────────────────────────────────────────────
+function showAddJob() {
+  if (!token) { showSetup(); return; }
+  const sel = document.getElementById('aj-status');
+  sel.innerHTML = Object.entries(STATUS_LABELS).map(([val, lbl]) =>
+    `<option value="${val}"${val==='new'?' selected':''}>${lbl.replace(/&#x[0-9A-F]+;/gi,'').trim()}</option>`
+  ).join('');
+  ['aj-url','aj-title','aj-company','aj-location','aj-description'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('aj-error').style.display = 'none';
+  document.getElementById('addjob-modal').style.display = 'flex';
+}
+
+function closeAddJob() {
+  document.getElementById('addjob-modal').style.display = 'none';
+}
+
+function normalizeUrl(u) {
+  return String(u || '').trim().replace(/[?#].*$/, '').replace(/\/$/, '').toLowerCase();
+}
+
+// Small deterministic string hash (FNV-1a) → 12 hex chars. Doesn't need to
+// match the Python md5 ids used by the bot — only needs to be stable & unique.
+function hashId(str) {
+  let h1 = 0xdeadbeef ^ str.length, h2 = 0x41c6ce57 ^ str.length;
+  for (let i = 0; i < str.length; i++) {
+    const ch = str.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  const combined = (4294967296 * (2097151 & h2) + (h1 >>> 0));
+  return combined.toString(16).padStart(12, '0').slice(0, 12);
+}
+
+async function submitAddJob() {
+  const url      = document.getElementById('aj-url').value.trim();
+  const title    = document.getElementById('aj-title').value.trim();
+  const company  = document.getElementById('aj-company').value.trim();
+  const location = document.getElementById('aj-location').value.trim();
+  const description = document.getElementById('aj-description').value.trim();
+  const status   = document.getElementById('aj-status').value;
+  const errEl    = document.getElementById('aj-error');
+
+  if (!url || !title) {
+    errEl.textContent = 'Please enter at least the job URL and title.';
+    errEl.style.display = 'block';
+    return;
+  }
+  errEl.style.display = 'none';
+
+  const norm = normalizeUrl(url);
+  const id   = hashId(norm);
+  const newJob = {
+    id, url, title,
+    company: company || 'Unknown',
+    location: location || 'Israel',
+    score: 70,
+    description: description || '',
+    match_tags: [],
+    status,
+    added_date: new Date().toISOString().slice(0, 10),
+  };
+
+  closeAddJob();
+  try {
+    // Merge onto the latest remote copy so we never clobber concurrent edits
+    const latest = await apiGet();
+    const dupe = latest.jobs.find(j =>
+      normalizeUrl(j.url) === norm ||
+      (j.title.trim().toLowerCase() === title.toLowerCase() && j.company.trim().toLowerCase() === newJob.company.toLowerCase())
+    );
+    if (dupe) {
+      dupe.status = status; // treat as an update if it already exists
+      if (description) dupe.description = description;
+    } else {
+      latest.jobs.unshift(newJob);
+    }
+    await apiPut(latest);
+    db = latest;
+    render();
+  } catch (e) {
+    alert('Could not add job: ' + e.message);
+  }
+}
 
 function showSetup() {
   document.getElementById('setup-modal').style.display = 'flex';
