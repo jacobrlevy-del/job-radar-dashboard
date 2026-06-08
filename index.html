@@ -239,6 +239,7 @@ async function submitAddJob() {
     description: description || '',
     match_tags: [],
     status,
+    source: 'manual',
     added_date: new Date().toISOString().slice(0, 10),
   };
 
