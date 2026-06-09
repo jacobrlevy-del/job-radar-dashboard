@@ -15,7 +15,7 @@
         "Fraud Detection",
         "Suspicious Activity"
       ],
-      "status": "irrelevant",
+      "status": "new",
       "added_date": "2026-06-09"
     },
     {
@@ -78,7 +78,7 @@
       "company": "Checkout.com",
       "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
       "score": 70,
-      "description": "Posted 11:24:16 AM. Company DescriptionWeÃÂÃÂ¢ÃÂÃÂÃÂÃÂre Checkout.com. You might not know our name, but companies like eBayÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¦See this and similar jobs on LinkedIn.",
+      "description": "Posted 11:24:16 AM. Company DescriptionWeÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre Checkout.com. You might not know our name, but companies like eBayÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦See this and similar jobs on LinkedIn.",
       "match_tags": [],
       "status": "irrelevant",
       "added_date": "2026-06-08",
@@ -91,7 +91,7 @@
       "company": "Revolut",
       "location": "Israel",
       "score": 70,
-      "description": "Posted 1:12:24 PM. About RevolutPeople deserve more from their money. More visibility, more control, and more freedom.ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¦See this and similar jobs on LinkedIn.",
+      "description": "Posted 1:12:24 PM. About RevolutPeople deserve more from their money. More visibility, more control, and more freedom.ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦See this and similar jobs on LinkedIn.",
       "match_tags": [],
       "status": "irrelevant",
       "added_date": "2026-06-08",
