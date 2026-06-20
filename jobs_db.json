@@ -2,6 +2,39 @@
   "version": 1,
   "jobs": [
     {
+      "id": "08e166170ea4",
+      "url": "https://www.linkedin.com/jobs/view/4428622588",
+      "title": "QMS and Regulatory Compliance Manager",
+      "company": "DRS RADA Technologies",
+      "location": "Netanya, Center District, Israel",
+      "score": 68,
+      "description": "Israel-based manager role in regulatory compliance. While not fintech/payments-specific, Jacob's extensive regulatory compliance background (GDPR, CCPA, AML legislation, audits) applies. Located in Center District near Tel Aviv area.",
+      "match_tags": [
+        "Regulatory Compliance",
+        "Manager",
+        "Israel-based"
+      ],
+      "status": "new",
+      "added_date": "2026-06-20"
+    },
+    {
+      "id": "6061a1a5645c",
+      "url": "https://www.linkedin.com/jobs/view/4370434858",
+      "title": "Regulatory Compliance Manager",
+      "company": "Revolut",
+      "location": "Israel",
+      "score": 95,
+      "description": "Perfect match - Jacob is already interviewing for this exact role. Combines regulatory compliance expertise with financial crime management, directly aligned with his 15+ years in AML/KYC/Compliance at similar fintech companies.",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Financial Crime",
+        "FinCrime Risk Manager"
+      ],
+      "status": "new",
+      "added_date": "2026-06-20"
+    },
+    {
       "id": "2bf7042a3aa1",
       "url": "https://www.linkedin.com/jobs/view/4406514940",
       "title": "FinCrime Risk Manager (AML/CTF)",
