@@ -2,6 +2,116 @@
   "version": 1,
   "jobs": [
     {
+      "id": "e9d5627fd01d",
+      "url": "https://www.linkedin.com/jobs/view/4427479733",
+      "title": "Regulatory Affairs Specialist",
+      "company": "Pi-Cardia",
+      "location": "Center District, Israel",
+      "score": 65,
+      "description": "Regulatory affairs specialist role matches Jacob's strong regulatory compliance background (GDPR, CCPA, AML legislation) and policy development experience.",
+      "match_tags": [
+        "Regulatory Compliance",
+        "Policy"
+      ],
+      "status": "new",
+      "added_date": "2026-06-20"
+    },
+    {
+      "id": "eca9a86d1374",
+      "url": "https://www.linkedin.com/jobs/view/4418954513",
+      "title": "Payment Operations Analyst (Junior Position)",
+      "company": "Balance",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Payments operations role at fintech company. Aligns with Jacob's extensive payments and fraud detection background at Payoneer and Wix, despite junior seniority level.",
+      "match_tags": [
+        "Payments",
+        "Operations",
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-06-20"
+    },
+    {
+      "id": "904852543e89",
+      "url": "https://www.linkedin.com/jobs/view/4410056763",
+      "title": "GRC Specialist",
+      "company": "Varonis",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Governance, Risk and Compliance specialist role matches Jacob's regulatory compliance and risk management expertise",
+      "match_tags": [
+        "Compliance",
+        "Risk",
+        "Governance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-20"
+    },
+    {
+      "id": "7af2b7fb8872",
+      "url": "https://www.linkedin.com/jobs/view/4416639273",
+      "title": "GRC Specialist",
+      "company": "Kaltura",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "score": 72,
+      "description": "GRC specialist role leverages Jacob's deep compliance, risk management, and regulatory expertise. Tel Aviv area location matches his preferences.",
+      "match_tags": [
+        "Compliance",
+        "Risk Management",
+        "Regulatory"
+      ],
+      "status": "new",
+      "added_date": "2026-06-20"
+    },
+    {
+      "id": "03e92aefd04c",
+      "url": "https://www.linkedin.com/jobs/view/4429341126",
+      "title": "Head of Audit - Israel",
+      "company": "Citi",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 72,
+      "description": "Strong regulatory and compliance audit background aligns with Jacob's 15+ years in financial crime compliance and regulatory reporting",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Risk Management"
+      ],
+      "status": "new",
+      "added_date": "2026-06-20"
+    },
+    {
+      "id": "0c47cfda375e",
+      "url": "https://www.linkedin.com/jobs/view/4429944872",
+      "title": "GRC Specialist",
+      "company": "YouCC Technologies Ltd.",
+      "location": "Shoham, Center District, Israel",
+      "score": 73,
+      "description": "GRC (Governance, Risk, Compliance) specialist role is a strong match for Jacob's extensive compliance, regulatory reporting, and risk management expertise across multiple organizations.",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Risk Management"
+      ],
+      "status": "new",
+      "added_date": "2026-06-20"
+    },
+    {
+      "id": "ec0236d3bbe7",
+      "url": "https://www.linkedin.com/jobs/view/4426741714",
+      "title": "Fraud Analyst",
+      "company": "Extreme",
+      "location": "Center District, Israel",
+      "score": 76,
+      "description": "Fraud analyst role matches Jacob's extensive fraud detection and chargeback mitigation experience at Simplex and Payoneer",
+      "match_tags": [
+        "Fraud",
+        "Risk Analysis"
+      ],
+      "status": "new",
+      "added_date": "2026-06-20"
+    },
+    {
       "id": "9bda315f6bcb",
       "url": "https://www.linkedin.com/jobs/view/4424817725",
       "title": "Delivery Manager - Spend",
