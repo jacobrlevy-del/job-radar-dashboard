@@ -181,12 +181,28 @@ async function apiGet() {
 }
 
 async function apiPut(updatedDb) {
-  const content = btoa(unescape(encodeURIComponent(JSON.stringify(updatedDb, null, 2))));
-  const r = await fetch(API, {
+  // Safety: never write an empty or invalid db
+  if (!updatedDb || !Array.isArray(updatedDb.jobs) || updatedDb.jobs.length === 0) {
+    throw new Error('Safety check: refusing to write empty job list');
+  }
+  const serialized = JSON.stringify(updatedDb, null, 2);
+  if (serialized.length < 50) {
+    throw new Error('Safety check: serialized db suspiciously small (' + serialized.length + ' bytes)');
+  }
+  const content = btoa(unescape(encodeURIComponent(serialized)));
+  const doFetch = (sha) => fetch(API, {
     method: 'PUT',
     headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ message: 'Update job status', content, sha: fileSha }),
+    body: JSON.stringify({ message: 'Update job status', content, sha }),
   });
+  let r = await doFetch(fileSha);
+  // On SHA mismatch (422), re-fetch SHA and retry once
+  if (r.status === 422) {
+    const fresh = await fetch(API, { headers: { Authorization: `token ${token}` } });
+    const fd = await fresh.json();
+    fileSha = fd.sha;
+    r = await doFetch(fileSha);
+  }
   if (!r.ok) { const e = await r.json(); throw new Error(e.message); }
   const resp = await r.json();
   fileSha = resp.content?.sha || fileSha;
