@@ -169,13 +169,39 @@ function saveToken() {
 }
 
 // ── GitHub API ────────────────────────────────────────────────────────────
-async function apiGet() {
-  const r = await fetch(API, {
+async function apiGetUrl(url) {
+  const r = await fetch(url, {
     headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
   });
   if (r.status === 401) { showSetup(); throw new Error('Invalid token'); }
   if (!r.ok) throw new Error(`GitHub ${r.status}`);
   const d = await r.json();
+  return d;
+}
+
+async function apiGet() {
+  let d = await apiGetUrl(API);
+  // If main file is empty/invalid, try backup
+  if (!d.content || d.content.replace(/\n/g, '') === '') {
+    console.warn('Main jobs_db.json is empty — trying backup...');
+    const BACKUP_API = API.replace('jobs_db.json', 'jobs_db_backup.json');
+    try {
+      const bd = await apiGetUrl(BACKUP_API);
+      if (bd.content && bd.content.replace(/\n/g, '') !== '') {
+        console.log('Restored from backup — will re-save to main file');
+        d = bd;
+        // Re-save backup content to main file immediately
+        const freshMain = await apiGetUrl(API);
+        fileSha = freshMain.sha;
+        const restoreContent = bd.content.replace(/\n/g, '');
+        await fetch(API, {
+          method: 'PUT',
+          headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: 'Auto-restore from backup', content: restoreContent, sha: fileSha }),
+        });
+      }
+    } catch(e) { console.warn('Backup fetch failed:', e); }
+  }
   fileSha = d.sha;
   const parsed = JSON.parse(atob(d.content.replace(/\n/g, '')));
   if (!parsed || !Array.isArray(parsed.jobs)) throw new Error('Invalid db: missing jobs array');
@@ -212,6 +238,15 @@ async function apiPut(updatedDb) {
   if (!r.ok) { const e = await r.json(); throw new Error(e.message); }
   const resp = await r.json();
   fileSha = resp.content?.sha || fileSha;
+  // Update backup asynchronously (don't await — don't block the save)
+  const BACKUP_API = API.replace('jobs_db.json', 'jobs_db_backup.json');
+  fetch(BACKUP_API, { headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' } })
+    .then(br => br.json())
+    .then(bd => fetch(BACKUP_API, {
+      method: 'PUT',
+      headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: 'Backup after status update', content, sha: bd.sha }),
+    })).catch(() => {});
 }
 
 // ── Load & render ─────────────────────────────────────────────────────────
