@@ -177,13 +177,19 @@ async function apiGet() {
   if (!r.ok) throw new Error(`GitHub ${r.status}`);
   const d = await r.json();
   fileSha = d.sha;
-  return JSON.parse(atob(d.content.replace(/\n/g, '')));
+  const parsed = JSON.parse(atob(d.content.replace(/\n/g, '')));
+  if (!parsed || !Array.isArray(parsed.jobs)) throw new Error('Invalid db: missing jobs array');
+  return parsed;
 }
 
 async function apiPut(updatedDb) {
   // Safety: never write an empty or invalid db
   if (!updatedDb || !Array.isArray(updatedDb.jobs) || updatedDb.jobs.length === 0) {
     throw new Error('Safety check: refusing to write empty job list');
+  }
+  // Safety: refuse to drastically reduce job count vs. what's in memory (catches stale-tab overwrites)
+  if (db && Array.isArray(db.jobs) && db.jobs.length > 5 && updatedDb.jobs.length < db.jobs.length * 0.5) {
+    throw new Error('Safety check: refusing to reduce job count from ' + db.jobs.length + ' to ' + updatedDb.jobs.length);
   }
   const serialized = JSON.stringify(updatedDb, null, 2);
   if (serialized.length < 50) {
