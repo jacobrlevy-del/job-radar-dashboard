@@ -121,9 +121,12 @@ const OWNER  = 'jacobrlevy-del';
 const REPO   = 'job-radar-dashboard';
 const FILE   = 'jobs_db.json';
 const API    = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`;
+const STATUS_FILE = 'job_statuses.json';
+const STATUS_API  = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${STATUS_FILE}`;
 
-let db      = { version: 1, jobs: [] };
-let fileSha = null;
+let db         = { version: 1, jobs: [] };
+let fileSha    = null;
+let statusSha  = null;
 let token   = localStorage.getItem('jr_token') || '';
 let filter  = 'new';
 let pending = null; // debounced save timer
@@ -169,84 +172,60 @@ function saveToken() {
 }
 
 // ── GitHub API ────────────────────────────────────────────────────────────
-async function apiGetUrl(url) {
+async function apiGetRaw(url) {
   const r = await fetch(url, {
     headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
   });
   if (r.status === 401) { showSetup(); throw new Error('Invalid token'); }
   if (!r.ok) throw new Error(`GitHub ${r.status}`);
-  const d = await r.json();
-  return d;
+  return r.json();
 }
 
 async function apiGet() {
-  let d = await apiGetUrl(API);
-  // If main file is empty/invalid, try backup
-  if (!d.content || d.content.replace(/\n/g, '') === '') {
-    console.warn('Main jobs_db.json is empty — trying backup...');
-    const BACKUP_API = API.replace('jobs_db.json', 'jobs_db_backup.json');
-    try {
-      const bd = await apiGetUrl(BACKUP_API);
-      if (bd.content && bd.content.replace(/\n/g, '') !== '') {
-        console.log('Restored from backup — will re-save to main file');
-        d = bd;
-        // Re-save backup content to main file immediately
-        const freshMain = await apiGetUrl(API);
-        fileSha = freshMain.sha;
-        const restoreContent = bd.content.replace(/\n/g, '');
-        await fetch(API, {
-          method: 'PUT',
-          headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
-          body: JSON.stringify({ message: 'Auto-restore from backup', content: restoreContent, sha: fileSha }),
-        });
-      }
-    } catch(e) { console.warn('Backup fetch failed:', e); }
-  }
+  // Load job list (read-only — browser never writes this)
+  const d = await apiGetRaw(API);
   fileSha = d.sha;
   const parsed = JSON.parse(atob(d.content.replace(/\n/g, '')));
   if (!parsed || !Array.isArray(parsed.jobs)) throw new Error('Invalid db: missing jobs array');
+
+  // Load statuses (browser writes only this tiny file)
+  try {
+    const sd = await apiGetRaw(STATUS_API);
+    statusSha = sd.sha;
+    const statuses = JSON.parse(atob(sd.content.replace(/\n/g, '')));
+    // Merge statuses into jobs
+    parsed.jobs.forEach(j => {
+      if (statuses[j.id] !== undefined) j.status = statuses[j.id];
+    });
+  } catch(e) { console.warn('Could not load statuses:', e); }
+
   return parsed;
 }
 
 async function apiPut(updatedDb) {
-  // Safety: never write an empty or invalid db
-  if (!updatedDb || !Array.isArray(updatedDb.jobs) || updatedDb.jobs.length === 0) {
-    throw new Error('Safety check: refusing to write empty job list');
-  }
-  // Safety: refuse to drastically reduce job count vs. what's in memory (catches stale-tab overwrites)
-  if (db && Array.isArray(db.jobs) && db.jobs.length > 5 && updatedDb.jobs.length < db.jobs.length * 0.5) {
-    throw new Error('Safety check: refusing to reduce job count from ' + db.jobs.length + ' to ' + updatedDb.jobs.length);
-  }
-  const serialized = JSON.stringify(updatedDb, null, 2);
-  if (serialized.length < 50) {
-    throw new Error('Safety check: serialized db suspiciously small (' + serialized.length + ' bytes)');
-  }
+  // Extract just the statuses — this tiny file is all the browser ever writes
+  const statuses = {};
+  (updatedDb.jobs || []).forEach(j => { statuses[j.id] = j.status || 'new'; });
+
+  const serialized = JSON.stringify(statuses, null, 2);
   const content = btoa(unescape(encodeURIComponent(serialized)));
-  const doFetch = (sha) => fetch(API, {
+
+  const doFetch = (sha) => fetch(STATUS_API, {
     method: 'PUT',
     headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({ message: 'Update job status', content, sha }),
   });
-  let r = await doFetch(fileSha);
-  // On SHA mismatch (422), re-fetch SHA and retry once
+
+  let r = await doFetch(statusSha);
   if (r.status === 422) {
-    const fresh = await fetch(API, { headers: { Authorization: `token ${token}` } });
+    const fresh = await fetch(STATUS_API, { headers: { Authorization: `token ${token}` } });
     const fd = await fresh.json();
-    fileSha = fd.sha;
-    r = await doFetch(fileSha);
+    statusSha = fd.sha;
+    r = await doFetch(statusSha);
   }
   if (!r.ok) { const e = await r.json(); throw new Error(e.message); }
   const resp = await r.json();
-  fileSha = resp.content?.sha || fileSha;
-  // Update backup asynchronously (don't await — don't block the save)
-  const BACKUP_API = API.replace('jobs_db.json', 'jobs_db_backup.json');
-  fetch(BACKUP_API, { headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' } })
-    .then(br => br.json())
-    .then(bd => fetch(BACKUP_API, {
-      method: 'PUT',
-      headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: 'Backup after status update', content, sha: bd.sha }),
-    })).catch(() => {});
+  statusSha = resp.content?.sha || statusSha;
 }
 
 // ── Load & render ─────────────────────────────────────────────────────────
