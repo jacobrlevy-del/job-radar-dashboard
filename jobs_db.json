@@ -2,6 +2,410 @@
   "version": 1,
   "jobs": [
     {
+      "id": "a14f018d738a",
+      "url": "https://www.linkedin.com/jobs/view/4433872894",
+      "title": "Sr Product Manager",
+      "company": "BeyondTrust",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 48,
+      "description": "Trust & Safety focus aligns partially with Jacob's compliance and risk mitigation background. Senior product role matches his leadership experience, but cybersecurity focus is tangential to financial crime expertise",
+      "match_tags": [
+        "Trust and Safety",
+        "Security",
+        "Product Leadership"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "5b3546e4c3e9",
+      "url": "https://www.linkedin.com/jobs/view/4406034969",
+      "title": "Junior Mortgage Underwriter- Position No. 1608",
+      "company": "IBI Investment House",
+      "location": "Haifa, Haifa District, Israel",
+      "score": 48,
+      "description": "Underwriting expertise is core to Jacob's background (team lead at Wix Payments). However, Haifa location is outside preferred Tel Aviv area and seniority level is junior despite Jacob's 15+ years experience",
+      "match_tags": [
+        "Underwriting",
+        "Risk Assessment"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "1099d2195831",
+      "url": "https://www.linkedin.com/jobs/view/4429858996",
+      "title": "Legal Counsel",
+      "company": "Claroty",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 48,
+      "description": "Borderline match. Legal counsel roles require legal background which is not Jacob's primary expertise, though compliance knowledge is transferable. Not a strong fit",
+      "match_tags": [
+        "Compliance",
+        "Legal"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "80f0f0739b0f",
+      "url": "https://www.linkedin.com/jobs/view/4382677308",
+      "title": "Senior Product Manager",
+      "company": "proteanTecs",
+      "location": "Haifa, Haifa District, Israel",
+      "score": 52,
+      "description": "Generic product manager role with no clear compliance, risk, or fintech focus. Limited match to Jacob's core expertise in financial crime and compliance, though senior level and Israel-based meet basic criteria",
+      "match_tags": [
+        "Product Management",
+        "Senior Role"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "4e84d6514151",
+      "url": "https://www.linkedin.com/jobs/view/4432099548",
+      "title": "Credit Solutions Associate 1",
+      "company": "HSBC Innovation Banking",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 52,
+      "description": "Credit solutions role at HSBC in Tel Aviv with Jacob's underwriting and risk assessment expertise. Associate level title may understate fit given 15+ years experience",
+      "match_tags": [
+        "Credit Risk",
+        "Underwriting",
+        "Banking"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "6e27547667fc",
+      "url": "https://www.linkedin.com/jobs/view/4431037073",
+      "title": "חתם אשראי",
+      "company": "BLender Financial Technologies",
+      "location": "Tel Aviv District, Israel",
+      "score": 55,
+      "description": "Credit underwriting (חתם אשראי) role at fintech company in Tel Aviv. Aligns with Jacob's underwriting and risk assessment background, though role appears to be individual contributor level",
+      "match_tags": [
+        "Underwriting",
+        "Credit Risk",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "c05e093d142d",
+      "url": "https://www.linkedin.com/jobs/view/4416016952",
+      "title": "Data Science & ML-Ops Team Lead",
+      "company": "Transmit Security",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 58,
+      "description": "Transmit Security focuses on fraud and identity security. Team lead role matches Jacob's leadership experience, and company's fraud/security focus aligns with his AI/LLM compliance pipeline design and fraud detection background",
+      "match_tags": [
+        "AI/ML",
+        "Team Leadership",
+        "Security/Fraud"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "8569fd07ef72",
+      "url": "https://www.linkedin.com/jobs/view/4418665387",
+      "title": "Internal Audit Consultant",
+      "company": "Deloitte",
+      "location": "Tel Aviv District, Israel",
+      "score": 58,
+      "description": "Moderate match. Internal audit involves compliance and regulatory knowledge from Jacob's background, though it is less directly aligned with his core AML/KYC/Risk expertise",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Audit"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "5f15fba0875b",
+      "url": "https://www.linkedin.com/jobs/view/4428024266",
+      "title": "Senior Internal Audit Consultant",
+      "company": "Deloitte",
+      "location": "Tel Aviv District, Israel",
+      "score": 60,
+      "description": "Moderate match. Senior-level audit role with compliance focus. Related to Jacob's regulatory compliance and policy experience, though not a primary specialty",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Audit"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "6ecb17de9602",
+      "url": "https://www.linkedin.com/jobs/view/4374031360",
+      "title": "QA Automation Team Lead",
+      "company": "ThetaRay",
+      "location": "Hod HaSharon, Center District, Israel",
+      "score": 62,
+      "description": "ThetaRay specializes in AML and financial crime detection technology. Team lead role matches Jacob's leadership experience, and company focus on AML/compliance provides strong industry alignment",
+      "match_tags": [
+        "Team Leadership",
+        "Financial Crime Detection"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "62e089179ec9",
+      "url": "https://www.linkedin.com/jobs/view/4429873277",
+      "title": "Regulatory Counsel, Middle East",
+      "company": "Airwallex",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 62,
+      "description": "Moderate match. Airwallex is a fintech/payments company. Regulatory expertise aligns with Jacob's background, though counsel role requires legal training not in his profile",
+      "match_tags": [
+        "Regulatory",
+        "Compliance",
+        "Fintech",
+        "Payments"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "55e95064547a",
+      "url": "https://www.linkedin.com/jobs/view/4432216955",
+      "title": "Data Science Team Lead",
+      "company": "Riskified",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 65,
+      "description": "Riskified specializes in fraud prevention and chargeback mitigation — core areas of Jacob's expertise. Team lead role matches his leadership background. Strong fintech and fraud detection alignment",
+      "match_tags": [
+        "Fraud Detection",
+        "Risk",
+        "Team Leadership",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "b897f24a90ed",
+      "url": "https://www.linkedin.com/jobs/view/4430568648",
+      "title": "PMO - Regulatory Compliance",
+      "company": "Stratasys",
+      "location": "Rehovot, Center District, Israel",
+      "score": 65,
+      "description": "Moderate match. Combines Jacob's regulatory compliance and process automation/project management skills. Located in Center District, slightly outside Tel Aviv area preference",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Project Management"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "e7bb82414db4",
+      "url": "https://www.linkedin.com/jobs/view/4431254027",
+      "title": "Technical Account Manager - Israel",
+      "company": "Chainalysis",
+      "location": "Israel",
+      "score": 68,
+      "description": "Chainalysis is a leading blockchain forensics and AML/KYC compliance platform. TAM role at a fintech compliance company aligns with Jacob's financial crime and regulatory expertise, even if not a direct compliance role",
+      "match_tags": [
+        "Financial Crime",
+        "Compliance",
+        "Fraud Detection"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "34b16001e05e",
+      "url": "https://www.linkedin.com/jobs/view/4392383276",
+      "title": "Sr. Product Manager- Risk Management",
+      "company": "Dream",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Moderate-to-good match. Risk management expertise aligns with Jacob's underwriting and fraud detection background, though product management is outside his primary career path",
+      "match_tags": [
+        "Risk",
+        "Product",
+        "Risk Management"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "0c9d51d1af65",
+      "url": "https://www.linkedin.com/jobs/view/4431663040",
+      "title": "Compliance Specialist",
+      "company": "Migdal Group",
+      "location": "Petah Tikva, Center District, Israel",
+      "score": 70,
+      "description": "Compliance specialist role at financial services company; matches Jacob's core compliance expertise",
+      "match_tags": [
+        "Compliance",
+        "Financial Services"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "5363dfb8d628",
+      "url": "https://www.linkedin.com/jobs/view/4432244151",
+      "title": "Compliance, Regulation and Standards Officer JB-5128",
+      "company": "Recruitx",
+      "location": "Modiin-Maccabim-Reut, Center District, Israel",
+      "score": 72,
+      "description": "Direct compliance and regulatory focus aligns with Jacob's 15+ years in regulatory compliance and policy work",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Standards"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "714a12ae5f4c",
+      "url": "https://www.linkedin.com/jobs/view/4430214502",
+      "title": "Internal Fraud Specialist JB-26722",
+      "company": "Cal (Israel Credit Cards)",
+      "location": "Bnei Brak, Tel Aviv District, Israel",
+      "score": 75,
+      "description": "Fraud specialist role at financial services company; matches Jacob's fraud detection and chargeback mitigation expertise from Simplex and Payoneer",
+      "match_tags": [
+        "Fraud",
+        "Financial Services"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "773c93133ec7",
+      "url": "https://www.linkedin.com/jobs/view/4422429094",
+      "title": "Associate, Payments Oversight",
+      "company": "Cross River",
+      "location": "West Jerusalem, Jerusalem District, Israel",
+      "score": 76,
+      "description": "Strong match. Payments and oversight roles align with Jacob's extensive payments background at Wix Payments, Payoneer, and Simplex. However, West Jerusalem is outside his Tel Aviv preference",
+      "match_tags": [
+        "Payments",
+        "Oversight",
+        "Compliance",
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "35f12390968a",
+      "url": "https://www.linkedin.com/jobs/view/4434283480",
+      "title": "Senior Product Manager, Wallet Product",
+      "company": "Payoneer",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "score": 78,
+      "description": "Excellent fit: Jacob has deep Payoneer history (fraud, SAR team, compliance), strong payments domain expertise, and proven team leadership. Product Manager role at former employer aligns with his strategic compliance and risk background in payments",
+      "match_tags": [
+        "Payments",
+        "Fintech",
+        "Former Employer",
+        "Product Leadership"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "f683754ffe36",
+      "url": "https://www.linkedin.com/jobs/view/4431243300",
+      "title": "Data Analyst - Risk & Fraud",
+      "company": "Rakuten Viber",
+      "location": "Bnei Brak, Tel Aviv District, Israel",
+      "score": 78,
+      "description": "Risk and fraud data analyst role; strong match for Jacob's SQL expertise (Trino, SOQL) and fraud detection background from multiple fintech roles",
+      "match_tags": [
+        "Fraud",
+        "Risk",
+        "Data Analysis",
+        "SQL"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "94b24096bc8c",
+      "url": "https://www.linkedin.com/jobs/view/4430396376",
+      "title": "Risk & Compliance Manager",
+      "company": "Wittix",
+      "location": "Holon, Tel Aviv District, Israel",
+      "score": 80,
+      "description": "Combined risk and compliance management role at manager level; strong match for Jacob's underwriting, merchant risk assessment, and team leadership experience",
+      "match_tags": [
+        "Risk",
+        "Compliance",
+        "Manager"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "c96c74e5298a",
+      "url": "https://www.linkedin.com/jobs/view/4350123135",
+      "title": "Data & Fraud Analytics Specialist | SQL, Python, Finance Processes",
+      "company": "Detelix Software Technologies Ltd",
+      "location": "Israel",
+      "score": 81,
+      "description": "Fraud analytics specialist requiring SQL expertise; strong match for Jacob's SQL/Trino data analysis skills combined with fraud detection background",
+      "match_tags": [
+        "Fraud",
+        "Data Analysis",
+        "SQL",
+        "Finance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "9f220e0111a6",
+      "url": "https://www.linkedin.com/jobs/view/4362670096",
+      "title": "Regulatory Reporting Manager",
+      "company": "Revolut",
+      "location": "Israel",
+      "score": 85,
+      "description": "Excellent match. Direct alignment with Jacob's SAR and regulatory reporting infrastructure management at Payoneer. Revolut is a fintech company where he has already applied",
+      "match_tags": [
+        "Regulatory Reporting",
+        "Compliance",
+        "AML",
+        "Fintech",
+        "Payments"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "33cde4492070",
+      "url": "https://www.linkedin.com/jobs/view/4434292543",
+      "title": "Director of KYC Strategy",
+      "company": "Payoneer",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "score": 94,
+      "description": "Director-level KYC strategy role at Payoneer (Jacob's former employer); direct alignment with his 15+ years AML/KYC expertise and leadership experience at payments fintech",
+      "match_tags": [
+        "KYC",
+        "Strategy",
+        "Director",
+        "Payments",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
       "id": "8678a9660dda",
       "url": "https://www.linkedin.com/jobs/view/4419133715",
       "title": "Engineering Team Lead, Alterya",
