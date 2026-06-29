@@ -2,6 +2,133 @@
   "version": 1,
   "jobs": [
     {
+      "id": "d3d42adbeaff",
+      "url": "https://www.linkedin.com/jobs/view/4431099624",
+      "title": "Threat Intelligence Analyst",
+      "company": "AU10TIX",
+      "location": "Hod HaSharon, Center District, Israel",
+      "score": 62,
+      "description": "Moderate match on risk/threat intelligence; some overlap with fraud detection but not primary fintech/payments focus",
+      "match_tags": [
+        "Risk Analysis",
+        "Threat Assessment"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "984daedd3fc7",
+      "url": "https://www.linkedin.com/jobs/view/4426832077",
+      "title": "Market Risk Analyst",
+      "company": "FIBI - הבנק הבינלאומי",
+      "location": "Tel Aviv District, Israel",
+      "score": 65,
+      "description": "Banking background matches Investec experience; market risk less aligned than operational/fraud risk but still relevant",
+      "match_tags": [
+        "Risk Analysis",
+        "Banking"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "cce1f8890d8f",
+      "url": "https://www.linkedin.com/jobs/view/4431732415",
+      "title": "Product Manager - Cloud Risk",
+      "company": "Tenable",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 66,
+      "description": "Product manager role with risk focus; cloud security risk differs from fintech focus but product leadership aligns with Jacob's experience",
+      "match_tags": [
+        "Risk Management",
+        "Product Management"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "56d582bdd545",
+      "url": "https://www.linkedin.com/jobs/view/4431506144",
+      "title": "Deputy CISO",
+      "company": "Sunbit",
+      "location": "Tel Aviv District, Israel",
+      "score": 67,
+      "description": "Deputy CISO role includes compliance and risk governance; security focus complements Jacob's compliance background",
+      "match_tags": [
+        "Information Security",
+        "Compliance",
+        "Risk Management"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "4d5d9b4c3d64",
+      "url": "https://www.linkedin.com/jobs/view/4432410946",
+      "title": "Senior Account Executive - Israel",
+      "company": "Chainalysis",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Chainalysis specializes in financial crime and blockchain compliance. While Account Executive is sales-focused, Jacob's deep compliance and financial crime expertise makes him valuable for enterprise compliance solutions. Strong industry alignment with his learned preferences (Revolut, Plus500)",
+      "match_tags": [
+        "Financial Crime",
+        "Compliance",
+        "Risk",
+        "Crypto/Blockchain"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "db1a0e28927c",
+      "url": "https://www.linkedin.com/jobs/view/4422416241",
+      "title": "Service Now Platform Manager",
+      "company": "Varonis",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "score": 72,
+      "description": "Varonis is on Jacob's learned preference list (AI Platform & Adoption Specialist); platform management aligns with process automation expertise",
+      "match_tags": [
+        "Platform Management",
+        "Compliance",
+        "Automation"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "3b4e3930edba",
+      "url": "https://www.linkedin.com/jobs/view/4419232902",
+      "title": "סניור בכיר/ה / מנג'ר לתחום הביקורת והבקרה הפנימית",
+      "company": "EY",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 74,
+      "description": "Senior manager role in internal audit and controls aligns with Jacob's regulatory and compliance leadership experience",
+      "match_tags": [
+        "Compliance",
+        "Internal Controls",
+        "Audit",
+        "Management"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "28912d4fc1e1",
+      "url": "https://www.linkedin.com/jobs/view/4434289790",
+      "title": "GRC Analyst",
+      "company": "Fireblocks",
+      "location": "Tel Aviv District, Israel",
+      "score": 75,
+      "description": "GRC role at blockchain infrastructure company. Strong alignment with Jacob's compliance, regulatory reporting, and risk assessment expertise. Fintech/crypto sector matches his payments and financial crime background",
+      "match_tags": [
+        "Governance Risk Compliance",
+        "Fintech",
+        "Crypto/Blockchain"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
       "id": "a58375f75036",
       "url": "https://www.linkedin.com/jobs/view/4407543415",
       "title": "Cyber Defense Analyst",
