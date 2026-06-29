@@ -2,6 +2,70 @@
   "version": 1,
   "jobs": [
     {
+      "id": "8f4b4f47aa52",
+      "url": "https://www.linkedin.com/jobs/view/4412560151",
+      "title": "Operational Regulatory Affairs Specialist",
+      "company": "Novocure",
+      "location": "Tirat HaCarmel, Haifa District, Israel",
+      "score": 55,
+      "description": "Moderate match - Operational regulatory affairs applicable, but Novocure is medical device company. Location outside preferred Tel Aviv area",
+      "match_tags": [
+        "Regulatory Compliance",
+        "Operations"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "1849ad37b800",
+      "url": "https://www.linkedin.com/jobs/view/4429814741",
+      "title": "CISO | GRC & Risk Assessment",
+      "company": "SECTERIOUS - Cyber security consultancy",
+      "location": "Beer Yaakov, Center District, Israel",
+      "score": 60,
+      "description": "Moderate match - GRC and risk assessment skills applicable, but CISO role is primarily cybersecurity-focused, outside Jacob's financial crime domain",
+      "match_tags": [
+        "GRC",
+        "Risk Assessment",
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "592ca520dd51",
+      "url": "https://www.linkedin.com/jobs/view/4431726609",
+      "title": "Senior / Data Engineer and Business Analyst - Automation, Analytics & AI",
+      "company": "MSD",
+      "location": "Hod HaSharon, Center District, Israel",
+      "score": 68,
+      "description": "Moderate-to-good match - Aligns with Jacob's SQL/data analysis (Trino, SOQL) and process automation project experience. AI component matches his LLM compliance pipeline design work. Not pure engineering, combines analytics and automation",
+      "match_tags": [
+        "Data Analysis",
+        "Automation",
+        "AI",
+        "Analytics"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "4d6320b13bd0",
+      "url": "https://www.linkedin.com/jobs/view/4423212331",
+      "title": "Senior AI Engineer",
+      "company": "Riskified",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 75,
+      "description": "Good match. Riskified fintech fraud context + Jacob's demonstrated AI/LLM compliance pipeline design and fraud detection background. Senior level appropriate for his seniority, though engineering-heavy focus is secondary to his compliance/risk expertise",
+      "match_tags": [
+        "Fraud",
+        "AI/LLM",
+        "Risk Detection"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
       "id": "830ceb9d5db3",
       "url": "https://www.linkedin.com/jobs/view/4428925996",
       "title": "Legal Business Analyst - Part Time",
