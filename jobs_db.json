@@ -2,6 +2,22 @@
   "version": 1,
   "jobs": [
     {
+      "id": "830ceb9d5db3",
+      "url": "https://www.linkedin.com/jobs/view/4428925996",
+      "title": "Legal Business Analyst - Part Time",
+      "company": "ActionAI",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 55,
+      "description": "Tel Aviv location and potential overlap with Jacob's AI/LLM compliance pipeline design work. However, part-time status and limited fintech/payments specificity lower the score",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "AI/LLM"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
       "id": "8e22dea9c264",
       "url": "https://www.linkedin.com/jobs/view/4432538264",
       "title": "Cyber Security Analyst",
