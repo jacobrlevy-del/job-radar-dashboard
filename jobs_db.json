@@ -2,6 +2,151 @@
   "version": 1,
   "jobs": [
     {
+      "id": "8e22dea9c264",
+      "url": "https://www.linkedin.com/jobs/view/4432538264",
+      "title": "Cyber Security Analyst",
+      "company": "ISCAR ISRAEL",
+      "location": "Migdal Tefen, North District, Israel",
+      "score": 48,
+      "description": "Weak match. Not compliance-focused, but Jacob's regulatory compliance, policy design, and risk management background provide some transferable skills to security role",
+      "match_tags": [
+        "Security",
+        "Compliance",
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "fd5a021c4560",
+      "url": "https://www.linkedin.com/jobs/view/4426784889",
+      "title": "Senior Business Analyst",
+      "company": "Rounds",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 48,
+      "description": "Moderate fit. Jacob's SQL and data analysis skills (Trino, Salesforce SOQL) for fraud trend analysis are relevant, though title lacks compliance/risk specificity",
+      "match_tags": [
+        "Data Analysis",
+        "Business Analysis"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "00b207e5e808",
+      "url": "https://www.linkedin.com/jobs/view/4430443753",
+      "title": "Data Operations Specialist",
+      "company": "Entrio",
+      "location": "Tel Aviv District, Israel",
+      "score": 54,
+      "description": "Partial fit. Jacob's data analysis (Trino, SOQL), SQL expertise, and big data fraud/trend analysis experience apply to data operations specialist role",
+      "match_tags": [
+        "Data Analysis",
+        "Operations",
+        "SQL"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "d68143aeaada",
+      "url": "https://www.linkedin.com/jobs/view/4433059776",
+      "title": "Business Analyst",
+      "company": "Migdal Group",
+      "location": "Petah Tikva, Center District, Israel",
+      "score": 56,
+      "description": "Moderate match. Financial services group (insurance/pension). Jacob's SQL, data analysis, and compliance background applicable, though less direct than compliance-specific roles",
+      "match_tags": [
+        "Data Analysis",
+        "SQL",
+        "Financial Services"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "02b0adeac679",
+      "url": "https://www.linkedin.com/jobs/view/4432688325",
+      "title": "Business Analyst",
+      "company": "Gett",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 58,
+      "description": "Moderate match. Jacob's SQL, data analysis (Trino, SOQL), and process automation skills apply. Not compliance-heavy but analyst-level role aligns with his technical background",
+      "match_tags": [
+        "Data Analysis",
+        "SQL",
+        "Process Automation"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "4dad6af4b4d1",
+      "url": "https://www.linkedin.com/jobs/view/4418897782",
+      "title": "FP&A Analyst",
+      "company": "Riskified",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 58,
+      "description": "Riskified is a fraud prevention fintech. FP&A role leverages Jacob's data analysis and financial crime domain expertise, though not a direct compliance match",
+      "match_tags": [
+        "Fintech",
+        "Risk",
+        "Data Analysis"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "2974502a83c8",
+      "url": "https://www.linkedin.com/jobs/view/4422335072",
+      "title": "Fintech & Financial Regulation Attorney",
+      "company": "Herzog",
+      "location": "Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Strong regulatory compliance background and fintech industry experience directly applicable. Legal perspective on compliance aligns with Jacob's 15+ years in financial crime regulation",
+      "match_tags": [
+        "Regulatory Compliance",
+        "Fintech",
+        "Financial Regulation"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "5764b345b781",
+      "url": "https://www.linkedin.com/jobs/view/4428481073",
+      "title": "Issuing Operations Specialist",
+      "company": "Rapyd",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Relevant to payments operations. Jacob's fraud detection, chargeback mitigation at Simplex/Payoneer, and underwriting expertise at Wix Payments apply to issuing operations in fintech",
+      "match_tags": [
+        "Payments",
+        "Operations",
+        "Fintech",
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
+      "id": "e501a5cabd99",
+      "url": "https://www.linkedin.com/jobs/view/4433052474",
+      "title": "Product Strategy Director",
+      "company": "Riskified",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Director-level strategy role at fraud/risk fintech. Aligns with Jacob's 15+ years of financial crime expertise and team leadership background",
+      "match_tags": [
+        "Fraud Prevention",
+        "Risk",
+        "Fintech",
+        "Strategy"
+      ],
+      "status": "new",
+      "added_date": "2026-06-29"
+    },
+    {
       "id": "d3d42adbeaff",
       "url": "https://www.linkedin.com/jobs/view/4431099624",
       "title": "Threat Intelligence Analyst",
