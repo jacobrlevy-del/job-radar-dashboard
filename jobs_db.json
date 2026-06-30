@@ -2,6 +2,37 @@
   "version": 1,
   "jobs": [
     {
+      "id": "587b1b550928",
+      "url": "https://www.linkedin.com/jobs/view/4423373143",
+      "title": "Senior Global Treasury Manager",
+      "company": "Taboola",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 55,
+      "description": "Moderate fit: treasury management involves regulatory compliance and financial risk oversight; some overlap with Jacob's banking compliance experience at Investec",
+      "match_tags": [
+        "Financial Compliance",
+        "Risk Management"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
+      "id": "40d1378e3fae",
+      "url": "https://www.linkedin.com/jobs/view/4435113597",
+      "title": "Security Governance & Risk Compliance",
+      "company": "monday.com",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 65,
+      "description": "Risk and compliance focus matches Jacob's regulatory and risk assessment expertise",
+      "match_tags": [
+        "Compliance",
+        "Risk",
+        "GRC"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
       "id": "e849962a49fd",
       "url": "https://www.linkedin.com/jobs/view/4433376151",
       "title": "VP Finance",
