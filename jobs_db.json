@@ -2,6 +2,103 @@
   "version": 1,
   "jobs": [
     {
+      "id": "12e4fc00a2c4",
+      "url": "https://www.linkedin.com/jobs/view/4411230620",
+      "title": "Product Specialist, Data and Risk Analytics",
+      "company": "ICE",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 62,
+      "description": "Product Specialist in Risk Analytics aligns with Jacob's SQL, data analysis, and fraud/risk trend analysis background. Tel Aviv area",
+      "match_tags": [
+        "Risk Analytics",
+        "Data Analysis",
+        "SQL"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
+      "id": "15044711f21b",
+      "url": "https://www.linkedin.com/jobs/view/4320129563",
+      "title": "מתמחה למחלקת ניהול סיכונים בתאגידים פיננסיים",
+      "company": "EY",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 65,
+      "description": "Risk management role at financial institutions. EY is a major financial services firm. Role aligns with Jacob's risk assessment and regulatory compliance expertise",
+      "match_tags": [
+        "Risk Management",
+        "Financial Services",
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
+      "id": "87edb2e67c85",
+      "url": "https://www.linkedin.com/jobs/view/4432087792",
+      "title": "Legal Counsel, Privacy",
+      "company": "Check Point Software",
+      "location": "Tel Aviv District, Israel",
+      "score": 65,
+      "description": "Privacy and compliance counsel role; matches Jacob's regulatory compliance expertise including GDPR/CCPA",
+      "match_tags": [
+        "Compliance",
+        "Privacy",
+        "Regulatory"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
+      "id": "3d615aa77d9f",
+      "url": "https://www.linkedin.com/jobs/view/4428476688",
+      "title": "Security & GRC Analyst (Agentic Search)",
+      "company": "Nebius",
+      "location": "Tel Aviv District, Israel",
+      "score": 66,
+      "description": "GRC analyst role combining governance, risk and compliance expertise; matches Jacob's compliance and risk background",
+      "match_tags": [
+        "Compliance",
+        "GRC",
+        "Analyst"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
+      "id": "8b0e7c9a0c1f",
+      "url": "https://www.linkedin.com/jobs/view/4424461241",
+      "title": "Senior Detection Researcher",
+      "company": "HUMAN",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 67,
+      "description": "Detection research role aligns with Jacob's fraud detection and chargeback mitigation expertise. HUMAN works on trust and safety, matching his background",
+      "match_tags": [
+        "Fraud Detection",
+        "Risk Detection",
+        "Research"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
+      "id": "bdded4caee10",
+      "url": "https://www.linkedin.com/jobs/view/4434472548",
+      "title": "Head of Internal Audit - HSBC Israel",
+      "company": "HSBC",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Head of Internal Audit at major bank matches Jacob's banking compliance background at Investec, team leadership experience, and audit/regulatory expertise. Leadership-level",
+      "match_tags": [
+        "Internal Audit",
+        "Banking Compliance",
+        "Leadership",
+        "Regulatory"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
       "id": "8f4b4f47aa52",
       "url": "https://www.linkedin.com/jobs/view/4412560151",
       "title": "Operational Regulatory Affairs Specialist",
