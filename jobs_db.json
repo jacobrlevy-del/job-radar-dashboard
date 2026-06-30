@@ -2,6 +2,70 @@
   "version": 1,
   "jobs": [
     {
+      "id": "6818a72375fa",
+      "url": "https://www.linkedin.com/jobs/view/4413448060",
+      "title": "Senior Site Reliability Engineer",
+      "company": "Chainalysis",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 52,
+      "description": "Chainalysis is a blockchain/crypto financial crime and compliance platform. Jacob's 15+ years in financial crime compliance, AML/KYC, and regulatory compliance provide relevant domain expertise. SRE role is slightly tangential to core background but fintech/compliance focus warrants inclusion",
+      "match_tags": [
+        "Financial Crime",
+        "Compliance",
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
+      "id": "294f2a2a13ff",
+      "url": "https://www.linkedin.com/jobs/view/4433366973",
+      "title": "Senior Security Researcher, Hexagate",
+      "company": "Chainalysis",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 58,
+      "description": "Chainalysis role with fraud/security focus aligns with Jacob's fraud detection background, but 'Security Researcher' is more engineering-focused than his preferred compliance/operations roles",
+      "match_tags": [
+        "Security Research",
+        "Fraud Detection",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
+      "id": "671ebf75f41f",
+      "url": "https://www.linkedin.com/jobs/view/4430565872",
+      "title": "Investments Analyst -50077866",
+      "company": "Phoenix Financial",
+      "location": "Rishon LeZion, Center District, Israel",
+      "score": 58,
+      "description": "Financial services analyst role in fintech space. Some overlap with Jacob's regulatory compliance and risk assessment skills, though not specifically compliance-focused",
+      "match_tags": [
+        "Financial Services",
+        "Risk",
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
+      "id": "39484c1071aa",
+      "url": "https://www.linkedin.com/jobs/view/4412453836",
+      "title": "Hebrew Trust & Safety Data Trainer",
+      "company": "Crossing Hurdles",
+      "location": "Israel",
+      "score": 62,
+      "description": "Trust & Safety aligns with Jacob's financial crime compliance background. However, remote-only and $50/hr contract rate may not suit his preference for on-site/hybrid Tel Aviv roles",
+      "match_tags": [
+        "Trust & Safety",
+        "Data Analysis",
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-06-30"
+    },
+    {
       "id": "587b1b550928",
       "url": "https://www.linkedin.com/jobs/view/4423373143",
       "title": "Senior Global Treasury Manager",
