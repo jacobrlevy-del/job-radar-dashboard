@@ -2,6 +2,38 @@
   "version": 1,
   "jobs": [
     {
+      "id": "00b207e5e808",
+      "url": "https://www.linkedin.com/jobs/view/4430443753",
+      "title": "Data Operations Specialist",
+      "company": "Entrio",
+      "location": "Tel Aviv District, Israel",
+      "score": 62,
+      "description": "Weak-to-moderate match. Jacob's SQL, data analysis (Trino, SOQL), and process automation expertise are relevant. However, title is generic 'Data Operations' without financial crime or compliance context. Could be a fit if role involves compliance data operations, but unclear from snippet",
+      "match_tags": [
+        "Data Analysis",
+        "Operations",
+        "Process Automation"
+      ],
+      "status": "new",
+      "added_date": "2026-07-01"
+    },
+    {
+      "id": "40521537dd4d",
+      "url": "https://www.linkedin.com/jobs/view/4426500888",
+      "title": "Senior Product Manager, Digital Risk",
+      "company": "eSentire",
+      "location": "Tel Aviv-Yafo, Israel",
+      "score": 65,
+      "description": "Moderate match. While Jacob has deep risk expertise, this is a product manager role which falls outside his preferred domain. Digital risk context provides some relevance but title suggests product strategy focus",
+      "match_tags": [
+        "Risk",
+        "Digital Risk",
+        "Product"
+      ],
+      "status": "new",
+      "added_date": "2026-07-01"
+    },
+    {
       "id": "fc97499cd15a",
       "url": "https://www.linkedin.com/jobs/view/4430383944",
       "title": "Product Regulatory Affairs Specialist",
