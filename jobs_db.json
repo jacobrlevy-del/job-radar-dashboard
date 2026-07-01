@@ -2,6 +2,89 @@
   "version": 1,
   "jobs": [
     {
+      "id": "82d95c393050",
+      "url": "https://www.linkedin.com/jobs/view/4435100283",
+      "title": "Claims department manager",
+      "company": "HUNTHEAD",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "score": 60,
+      "description": "Claims management role requiring operations leadership. Marginal fit based on Jacob's fraud mitigation and risk team leadership experience, though not primary domain",
+      "match_tags": [
+        "Risk Management",
+        "Operations",
+        "Leadership"
+      ],
+      "status": "new",
+      "added_date": "2026-07-01"
+    },
+    {
+      "id": "f1546e824f42",
+      "url": "https://www.linkedin.com/jobs/view/4435121255",
+      "title": "Applied Data Scientist, Fintech Initiatives",
+      "company": "Triple Whale",
+      "location": "Jerusalem District, Israel",
+      "score": 62,
+      "description": "Data science role at fintech company. Jacob's SQL and data analysis skills in fraud/compliance context are relevant, though pure data science may not be ideal fit given preference for non-engineering roles",
+      "match_tags": [
+        "Data Analysis",
+        "Fintech",
+        "SQL"
+      ],
+      "status": "new",
+      "added_date": "2026-07-01"
+    },
+    {
+      "id": "35f12390968a",
+      "url": "https://www.linkedin.com/jobs/view/4434283480",
+      "title": "Senior Product Manager, Wallet Product",
+      "company": "Payoneer",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Payoneer is Jacob's former employer where he managed fraud detection and SAR reporting. His deep knowledge of Payoneer's systems, fraud infrastructure, and payments compliance makes this a strong contextual fit despite being a product role",
+      "match_tags": [
+        "Payments",
+        "Fintech",
+        "Fraud Detection",
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-07-01"
+    },
+    {
+      "id": "73c86be799ab",
+      "url": "https://www.linkedin.com/jobs/view/4419229662",
+      "title": "Head of Consumer Credit Management & Development JB-26743",
+      "company": "Cal (Israel Credit Cards)",
+      "location": "Bnei Brak, Tel Aviv District, Israel",
+      "score": 73,
+      "description": "Head-level role managing credit and risk at financial services company. Strong match for Jacob's underwriting team lead experience and risk management expertise. Senior leadership opportunity",
+      "match_tags": [
+        "Credit Management",
+        "Risk Assessment",
+        "Underwriting",
+        "Leadership"
+      ],
+      "status": "new",
+      "added_date": "2026-07-01"
+    },
+    {
+      "id": "28912d4fc1e1",
+      "url": "https://www.linkedin.com/jobs/view/4434289790",
+      "title": "Controls & GRC Specialist",
+      "company": "Fireblocks",
+      "location": "Tel Aviv District, Israel",
+      "score": 75,
+      "description": "Controls and GRC at a payments/blockchain company; strong match for Jacob's combination of compliance, process control, and payments expertise",
+      "match_tags": [
+        "GRC",
+        "Controls",
+        "Financial Crime",
+        "Payments"
+      ],
+      "status": "new",
+      "added_date": "2026-07-01"
+    },
+    {
       "id": "4020efcdffed",
       "url": "https://www.linkedin.com/jobs/view/4433063196",
       "title": "Payment Fraud Product Manager",
