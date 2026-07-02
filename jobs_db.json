@@ -2,6 +2,54 @@
   "version": 1,
   "jobs": [
     {
+      "id": "2974502a83c8",
+      "url": "https://www.linkedin.com/jobs/view/4422335072",
+      "title": "Fintech & Financial Regulation Attorney",
+      "company": "Herzog",
+      "location": "Tel Aviv, Israel",
+      "score": 61,
+      "description": "Attorney role is typically outside Jacob's remit, but 'Fintech & Financial Regulation' focus and regulatory compliance emphasis provides marginal fit. Not primary target but regulatory knowledge overlap noted",
+      "match_tags": [
+        "Regulatory Compliance",
+        "Fintech",
+        "Legal"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
+      "id": "48e5cc28992e",
+      "url": "https://www.linkedin.com/jobs/view/4432355743",
+      "title": "Data Analyst",
+      "company": "G2 Risk Solutions",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "G2 Risk Solutions operates in financial risk. Jacob's SQL/data analysis skills (Trino, SOQL) and fraud trend analysis experience are relevant, though analyst role is junior to his seniority",
+      "match_tags": [
+        "Risk Analysis",
+        "Data Analysis",
+        "Financial Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
+      "id": "0e7231a6d445",
+      "url": "https://www.linkedin.com/jobs/view/4436146157",
+      "title": "Corporate Investigator, Enterprise Protection Program – Global Investigations",
+      "company": "Amazon",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 69,
+      "description": "Moderate match - corporate investigation role leveraging Jacob's financial crime, SAR reporting, and law enforcement liaison experience at Payoneer. Investigator background complements underwriting/risk assessment expertise",
+      "match_tags": [
+        "Fraud Investigation",
+        "Financial Crime",
+        "Risk Management"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
       "id": "00b207e5e808",
       "url": "https://www.linkedin.com/jobs/view/4430443753",
       "title": "Data Operations Specialist",
