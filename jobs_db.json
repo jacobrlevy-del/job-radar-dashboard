@@ -2,6 +2,101 @@
   "version": 1,
   "jobs": [
     {
+      "id": "7df37a6b9a54",
+      "url": "https://www.linkedin.com/jobs/view/4413311316",
+      "title": "Country Approval Specialist - FSP- Israel",
+      "company": "Thermo Fisher Scientific",
+      "location": "Israel",
+      "score": 62,
+      "description": "FSP (Financial Services Provider) designation suggests fintech/payments compliance angle. Country approval workflow overlaps with KYC/regulatory onboarding. However, Thermo Fisher is primarily life sciences; may be misaligned",
+      "match_tags": [
+        "Regulatory Approvals",
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
+      "id": "21dd642b1f3a",
+      "url": "https://www.linkedin.com/jobs/view/4434265660",
+      "title": "אנליסט.ית ערבויות בכלל ביטוח אשראי",
+      "company": "Clal Insurance & Finance- כלל ביטוח ופיננסים",
+      "location": "Tel Aviv District, Israel",
+      "score": 65,
+      "description": "Credit guarantee analyst role at major Israeli financial institution. Overlaps with underwriting and merchant risk assessment expertise. Analyst-level title matches his openness to all seniority levels",
+      "match_tags": [
+        "Credit Insurance",
+        "Risk Analysis",
+        "Financial Services"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
+      "id": "189caf0030de",
+      "url": "https://www.linkedin.com/jobs/view/4435204513",
+      "title": "GRC and Information Security Analyst",
+      "company": "Dun & Bradstreet (Israel) Ltd",
+      "location": "Bnei Brak, Tel Aviv District, Israel",
+      "score": 65,
+      "description": "GRC framework overlaps with compliance expertise. Dun & Bradstreet handles risk data. However, infosec component may dominate role. Analyst level matches his willingness to consider all seniority levels",
+      "match_tags": [
+        "GRC",
+        "Compliance",
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
+      "id": "f30fd7c47e8b",
+      "url": "https://www.linkedin.com/jobs/view/4320328363",
+      "title": "Manager/Senior for our US tax compliance practice",
+      "company": "EY",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Manager-level compliance role at Big 4 matches Jacob's regulatory compliance expertise and team leadership experience. Tax compliance overlaps with his broad regulatory reporting background",
+      "match_tags": [
+        "Regulatory Compliance",
+        "Compliance Manager",
+        "Tax Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
+      "id": "bd429344100c",
+      "url": "https://www.linkedin.com/jobs/view/4432796154",
+      "title": "Operational Risk Manager – Brokerage Services",
+      "company": "IBI Investment House",
+      "location": "Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Operational risk in brokerage/investment banking aligns with regulatory compliance and banking background from Investec. Slightly lower score due to brokerage context vs. payments/fintech focus",
+      "match_tags": [
+        "Operational Risk",
+        "Financial Services",
+        "Regulatory Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
+      "id": "fb6d00c7051e",
+      "url": "https://www.linkedin.com/jobs/view/4432783735",
+      "title": "Country Approval Specialist / Regulatory Officer",
+      "company": "PSI CRO",
+      "location": "Raanana, Center District, Israel",
+      "score": 72,
+      "description": "Regulatory officer title and approvals/KYC workflow directly match Jacob's expertise. CRO (Contract Research Organization) context suggests pharma/clinical, less financial crime focus, but core regulatory skills transfer well",
+      "match_tags": [
+        "Regulatory Compliance",
+        "KYC",
+        "Approvals"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
       "id": "3ae551d4197b",
       "url": "https://www.linkedin.com/jobs/view/4427487562",
       "title": "Product Manager (Policy Protect)",
