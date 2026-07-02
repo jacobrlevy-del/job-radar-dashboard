@@ -2,6 +2,55 @@
   "version": 1,
   "jobs": [
     {
+      "id": "c1aa9a18a31e",
+      "url": "https://www.linkedin.com/jobs/view/4377829869",
+      "title": "Internal Auditor",
+      "company": "Migdal Group",
+      "location": "Petah Tikva, Center District, Israel",
+      "score": 62,
+      "description": "Internal audit experience at financial institution overlaps with Jacob's regulatory compliance and banking background. Audit function relevant to compliance risk management",
+      "match_tags": [
+        "Regulatory Compliance",
+        "Audit",
+        "Financial Crime"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
+      "id": "6f3052967004",
+      "url": "https://www.linkedin.com/jobs/view/4408781208",
+      "title": "IT & Specialized Assurance Consultant junior",
+      "company": "Deloitte",
+      "location": "Tel Aviv District, Israel",
+      "score": 64,
+      "description": "Assurance consulting at Big Four firm covers compliance and regulatory frameworks. Jacob's extensive compliance audit experience and regulatory reporting background are transferable",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Assurance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
+      "id": "a311eba07746",
+      "url": "https://www.linkedin.com/jobs/view/4423336118",
+      "title": "Senior Analyst (3269)",
+      "company": "Isracard",
+      "location": "Center District, Israel",
+      "score": 68,
+      "description": "Isracard is Israel's major credit card processor. Senior Analyst role in a payments/financial services context likely involves fraud, risk, or compliance work — directly relevant to Jacob's underwriting, fraud detection, and merchant risk background",
+      "match_tags": [
+        "Financial Services",
+        "Risk",
+        "Payments",
+        "Analyst"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
       "id": "7df37a6b9a54",
       "url": "https://www.linkedin.com/jobs/view/4413311316",
       "title": "Country Approval Specialist - FSP- Israel",
