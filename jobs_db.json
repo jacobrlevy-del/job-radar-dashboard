@@ -2,6 +2,37 @@
   "version": 1,
   "jobs": [
     {
+      "id": "db92b0b57e28",
+      "url": "https://www.linkedin.com/jobs/view/4433607474",
+      "title": "QA Engineer – Compliance QMS (Maternity Leave Replacement)",
+      "company": "Mego Afek AC Ltd",
+      "location": "Haifa District, Israel",
+      "score": 61,
+      "description": "Compliance QMS (Quality Management System) role. Engineering title is misleading; focus on compliance testing and QA processes. Jacob's regulatory compliance and process automation expertise relevant. Temporary maternity cover position",
+      "match_tags": [
+        "Compliance",
+        "Quality Management"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
+      "id": "3abc08ad9b81",
+      "url": "https://www.linkedin.com/jobs/view/4421807483",
+      "title": "Information Security Manager - JB-632",
+      "company": "PwC Israel",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 62,
+      "description": "Information security manager at Big 4. While cybersecurity-focused, PwC role may encompass financial risk and compliance aspects. Borderline match—security emphasis creates lower score, but regulatory compliance and risk components merit inclusion",
+      "match_tags": [
+        "Compliance",
+        "Risk",
+        "Financial Services"
+      ],
+      "status": "new",
+      "added_date": "2026-07-02"
+    },
+    {
       "id": "c1aa9a18a31e",
       "url": "https://www.linkedin.com/jobs/view/4377829869",
       "title": "Internal Auditor",
