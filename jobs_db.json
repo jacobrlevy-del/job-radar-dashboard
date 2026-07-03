@@ -2,6 +2,22 @@
   "version": 1,
   "jobs": [
     {
+      "id": "eb0aa0fdd1d1",
+      "url": "https://www.linkedin.com/jobs/view/4412658139",
+      "title": "Product Manager, Payments",
+      "company": "Papaya Global",
+      "location": "Tel Aviv District, Israel",
+      "score": 65,
+      "description": "Payments fintech company. While PM title is not core compliance, Jacob's 15+ years in payments fraud, underwriting, and merchant risk at Simplex and Payoneer make the domain highly relevant. Score reflects title mismatch but strong industry fit",
+      "match_tags": [
+        "Payments",
+        "Fintech",
+        "Risk Operations"
+      ],
+      "status": "new",
+      "added_date": "2026-07-03"
+    },
+    {
       "id": "db92b0b57e28",
       "url": "https://www.linkedin.com/jobs/view/4433607474",
       "title": "QA Engineer – Compliance QMS (Maternity Leave Replacement)",
