@@ -2,6 +2,37 @@
   "version": 1,
   "jobs": [
     {
+      "id": "c39f19b191fc",
+      "url": "https://www.linkedin.com/jobs/view/4432093716",
+      "title": "אנליסט.ית אשראי בתחום מקרקעין",
+      "company": "Clal Insurance & Finance- כלל ביטוח ופיננסים",
+      "location": "Tel Aviv District, Israel",
+      "score": 60,
+      "description": "Credit analyst role in real estate at major financial institution — aligns with Jacob's underwriting and risk assessment expertise",
+      "match_tags": [
+        "Credit",
+        "Underwriting"
+      ],
+      "status": "new",
+      "added_date": "2026-07-03"
+    },
+    {
+      "id": "74af3f78a004",
+      "url": "https://www.linkedin.com/jobs/view/4431046174",
+      "title": "Internal Auditor",
+      "company": "Harel Insurance & Finance",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "score": 62,
+      "description": "Insurance and finance internal audit role in Tel Aviv area. Jacob's banking compliance experience at Investec and regulatory framework knowledge provide foundational overlap with financial services audit",
+      "match_tags": [
+        "Internal Audit",
+        "Financial Services",
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-03"
+    },
+    {
       "id": "2838df77225e",
       "url": "https://www.linkedin.com/jobs/view/4432356083",
       "title": "Compliance Analyst - Freelance AI Trainer",
