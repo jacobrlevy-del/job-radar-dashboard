@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "2838df77225e",
+      "url": "https://www.linkedin.com/jobs/view/4432356083",
+      "title": "Compliance Analyst - Freelance AI Trainer",
+      "company": "Mindrift",
+      "location": "Israel",
+      "score": 68,
+      "description": "Direct match to Jacob's demonstrated AI/LLM compliance pipeline design expertise. Title includes 'Compliance Analyst' which is his core domain. Aligns with his experience building LLM prompt architecture and output schemas for compliance workflows",
+      "match_tags": [
+        "Compliance",
+        "AI",
+        "LLM",
+        "Compliance Automation"
+      ],
+      "status": "new",
+      "added_date": "2026-07-03"
+    },
+    {
       "id": "1deb48a70274",
       "url": "https://www.linkedin.com/jobs/view/4434320702",
       "title": "Charm Security- Fraud & Data Researcher",
