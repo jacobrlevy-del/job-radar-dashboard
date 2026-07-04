@@ -2,6 +2,22 @@
   "version": 1,
   "jobs": [
     {
+      "id": "88d2cc17571a",
+      "url": "https://www.linkedin.com/jobs/view/4436385821",
+      "title": "Prompt Engineer",
+      "company": "Chainalysis",
+      "location": "Israel",
+      "score": 71,
+      "description": "Moderate-to-good match - Jacob has demonstrated AI/LLM compliance pipeline design expertise. Chainalysis operates in crypto compliance space. Prompt engineering aligns with his LLM architecture work",
+      "match_tags": [
+        "AI/LLM",
+        "Compliance",
+        "Financial Crime"
+      ],
+      "status": "new",
+      "added_date": "2026-07-04"
+    },
+    {
       "id": "11d742eb704b",
       "url": "https://www.linkedin.com/jobs/view/4432355273",
       "title": "Transfer Agency Associate",
