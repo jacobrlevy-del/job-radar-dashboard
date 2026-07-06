@@ -2,6 +2,37 @@
   "version": 1,
   "jobs": [
     {
+      "id": "8aaad8ff0220",
+      "url": "https://www.linkedin.com/jobs/view/4432360672",
+      "title": "Complaints Counsel",
+      "company": "Revolut",
+      "location": "Israel",
+      "score": 68,
+      "description": "At Revolut (company Jacob is already interviewing with for FinCrime Risk Manager role), complaints handling involves regulatory compliance and financial crime elements. Legal title is a drawback, but Revolut fintech context and Jacob's existing interest in the company provide contextual boost",
+      "match_tags": [
+        "Revolut",
+        "Fintech",
+        "Compliance-adjacent"
+      ],
+      "status": "new",
+      "added_date": "2026-07-06"
+    },
+    {
+      "id": "f3b21b61df62",
+      "url": "https://www.linkedin.com/jobs/view/4385052232",
+      "title": "יועץ-ת לצוות ניהול סיכונים פיננסיים",
+      "company": "EY",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 72,
+      "description": "Financial Risk Management advisory role at major professional services firm. Translates to 'Advisor for Financial Risk Management Team.' Matches Jacob's risk management background, though consulting structure is secondary to his direct compliance focus",
+      "match_tags": [
+        "Financial Risk Management",
+        "Advisory"
+      ],
+      "status": "new",
+      "added_date": "2026-07-06"
+    },
+    {
       "id": "7709069c53c4",
       "url": "https://www.linkedin.com/jobs/view/4435214833",
       "title": "Technology Risk Business Partner",
