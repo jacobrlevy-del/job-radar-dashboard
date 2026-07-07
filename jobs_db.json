@@ -2,6 +2,53 @@
   "version": 1,
   "jobs": [
     {
+      "id": "7f1e5fcf7303",
+      "url": "https://www.linkedin.com/jobs/view/4385035771",
+      "title": "יועץ-ת בכיר-ה לצוות ניהול סיכונים פיננסיים",
+      "company": "EY",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 64,
+      "description": "Senior Advisor for Financial Risk Management team. EY consulting on financial risk at banking/fintech context can align with Jacob's risk management expertise, though consulting firm context is secondary to role substance",
+      "match_tags": [
+        "Risk Manager",
+        "Financial Services",
+        "Consulting"
+      ],
+      "status": "new",
+      "added_date": "2026-07-07"
+    },
+    {
+      "id": "f8fa4db59742",
+      "url": "https://www.linkedin.com/jobs/view/4434551633",
+      "title": "Fraud Analyst",
+      "company": "Play Perfect",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 76,
+      "description": "Direct match to Fraud Analyst target role",
+      "match_tags": [
+        "Fraud Analyst",
+        "Financial Services"
+      ],
+      "status": "new",
+      "added_date": "2026-07-07"
+    },
+    {
+      "id": "427b2befda89",
+      "url": "https://www.linkedin.com/jobs/view/4434551468",
+      "title": "Fraud Analyst / Risk Analyst",
+      "company": "Boosty Talent",
+      "location": "Israel",
+      "score": 78,
+      "description": "Fraud Analyst and Risk Analyst are both target roles. Matches Jacob's fraud detection and merchant risk background",
+      "match_tags": [
+        "Fraud Analyst",
+        "Risk Analyst",
+        "Payments"
+      ],
+      "status": "new",
+      "added_date": "2026-07-07"
+    },
+    {
       "id": "dbc9ed1851f4",
       "url": "https://www.linkedin.com/jobs/view/4436516930",
       "title": "Fraud Specialist",
