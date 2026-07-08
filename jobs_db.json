@@ -2,6 +2,38 @@
   "version": 1,
   "jobs": [
     {
+      "id": "c21ea9c6ad83",
+      "url": "https://www.linkedin.com/jobs/view/4434516853",
+      "title": "Audit, SOX & Controls Manager – Financial Sector- Deloitte",
+      "company": "IIA Israel - Institute of Internal Auditors in Israel",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 62,
+      "description": "Borderline acceptable: Manager-level audit role in financial sector; could involve financial crime/regulatory compliance audit work, but generic audit title creates uncertainty",
+      "match_tags": [
+        "Compliance",
+        "Financial Sector",
+        "Audit"
+      ],
+      "status": "new",
+      "added_date": "2026-07-08"
+    },
+    {
+      "id": "59fcdd12eec6",
+      "url": "https://www.linkedin.com/jobs/view/4436067721",
+      "title": "Sox Expert 060726",
+      "company": "Bank Hapoalim",
+      "location": "Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Acceptable match: SOX/compliance expert role at major banking institution; regulatory compliance aligns with Jacob's expertise, though SOX focus is narrower than ideal",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Banking"
+      ],
+      "status": "new",
+      "added_date": "2026-07-08"
+    },
+    {
       "id": "7f1e5fcf7303",
       "url": "https://www.linkedin.com/jobs/view/4385035771",
       "title": "יועץ-ת בכיר-ה לצוות ניהול סיכונים פיננסיים",
