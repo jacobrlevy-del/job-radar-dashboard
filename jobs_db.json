@@ -2,6 +2,54 @@
   "version": 1,
   "jobs": [
     {
+      "id": "8307c14c6676",
+      "url": "https://www.linkedin.com/jobs/view/4437536974",
+      "title": "Compliance Operations Analyst",
+      "company": "Rapyd",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 72,
+      "description": "Direct match to Compliance Analyst role at payments fintech company. Strong alignment with Jacob's target roles and industry",
+      "match_tags": [
+        "Compliance",
+        "Payments",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-07-09"
+    },
+    {
+      "id": "6e0c5ef42d90",
+      "url": "https://www.linkedin.com/jobs/view/4437538760",
+      "title": "FinCrime Analyst",
+      "company": "Revolut",
+      "location": "Israel",
+      "score": 90,
+      "description": "Exact target role match at Revolut, a fintech leader in compliance. Aligns with Jacob's financial crime and AML background",
+      "match_tags": [
+        "AML",
+        "Financial Crime Analyst",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-07-09"
+    },
+    {
+      "id": "4b891245af07",
+      "url": "https://www.linkedin.com/jobs/view/4437547495",
+      "title": "FinCrime Analyst (AML/CTF)",
+      "company": "Revolut",
+      "location": "Israel",
+      "score": 92,
+      "description": "Direct match to Financial Crime Analyst target role at Revolut. Strong AML/CTF focus aligns with Jacob's core expertise and experience",
+      "match_tags": [
+        "AML",
+        "Financial Crime Analyst",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-07-09"
+    },
+    {
       "id": "c95d7281babe",
       "url": "https://www.linkedin.com/jobs/view/4434819956",
       "title": "Senior Underwriter - Cyber, Tech, & Special Risks",
