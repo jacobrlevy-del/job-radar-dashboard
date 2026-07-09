@@ -2,6 +2,21 @@
   "version": 1,
   "jobs": [
     {
+      "id": "c374f96877a1",
+      "url": "https://www.linkedin.com/jobs/view/4437053275",
+      "title": "Risk Controller",
+      "company": "Altshuler Shaham",
+      "location": "Tel Aviv District, Israel",
+      "score": 62,
+      "description": "Risk Controller at insurance/financial services company. 'Controller' is finance-focused but in financial services context may align with risk management",
+      "match_tags": [
+        "Risk",
+        "Insurance/Financial Services"
+      ],
+      "status": "new",
+      "added_date": "2026-07-09"
+    },
+    {
       "id": "85801066a3ad",
       "url": "https://www.linkedin.com/jobs/view/4434834616",
       "title": "Fraud Data Scientist",
