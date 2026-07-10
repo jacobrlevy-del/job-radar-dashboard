@@ -2,6 +2,55 @@
   "version": 1,
   "jobs": [
     {
+      "id": "f6ceee266598",
+      "url": "https://www.linkedin.com/jobs/view/4437960605",
+      "title": "Regulatory Compliance Assurance Manager",
+      "company": "Revolut",
+      "location": "Israel",
+      "score": 78,
+      "description": "Direct match to Compliance Manager target role at Revolut, a fintech company Jacob is already interviewing with",
+      "match_tags": [
+        "Compliance",
+        "Manager",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-07-10"
+    },
+    {
+      "id": "c46bb42041dc",
+      "url": "https://www.linkedin.com/jobs/view/4437965414",
+      "title": "FinCrime Quality Analyst",
+      "company": "Revolut",
+      "location": "Israel",
+      "score": 82,
+      "description": "Strong match to Financial Crime Analyst target role at Revolut, aligns with Jacob's AML and compliance expertise",
+      "match_tags": [
+        "AML",
+        "Financial Crime",
+        "Fintech"
+      ],
+      "status": "new",
+      "added_date": "2026-07-10"
+    },
+    {
+      "id": "a2b8cfdeb4ad",
+      "url": "https://www.linkedin.com/jobs/view/4437974196",
+      "title": "Regulatory Compliance Manager (DPO)",
+      "company": "Revolut",
+      "location": "Israel",
+      "score": 85,
+      "description": "Strong match - Revolut is a fintech company Jacob is already interviewing with for FinCrime role. Regulatory Compliance Manager aligns with target compliance roles. Israeli location meets criteria",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Fintech",
+        "DPO"
+      ],
+      "status": "new",
+      "added_date": "2026-07-10"
+    },
+    {
       "id": "d0282025a944",
       "url": "https://www.linkedin.com/jobs/view/4432690359",
       "title": "Controller",
