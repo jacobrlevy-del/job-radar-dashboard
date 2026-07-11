@@ -2,6 +2,54 @@
   "version": 1,
   "jobs": [
     {
+      "id": "7b0fbc298da1",
+      "url": "https://www.linkedin.com/jobs/view/4437853145",
+      "title": "Data Protection Officer",
+      "company": "VIDAA",
+      "location": "Tel Aviv District, Israel",
+      "score": 65,
+      "description": "Data Protection Officer involves regulatory compliance and GDPR expertise which Jacob has demonstrated at Investec and Wix. Compliance-focused role in Tel Aviv area",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "GDPR"
+      ],
+      "status": "new",
+      "added_date": "2026-07-11"
+    },
+    {
+      "id": "ee6720ce2eb3",
+      "url": "https://www.linkedin.com/jobs/view/4438230346",
+      "title": "GRC Specialist (36838)",
+      "company": "Mertens – מקבוצת מלם תים",
+      "location": "Center District, Israel",
+      "score": 68,
+      "description": "GRC Specialist role. If focused on financial crime and regulatory compliance (not IT/cybersecurity GRC), matches Jacob's compliance expertise",
+      "match_tags": [
+        "Compliance",
+        "Risk",
+        "Governance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-11"
+    },
+    {
+      "id": "caf2dedafeef",
+      "url": "https://www.linkedin.com/jobs/view/4437372873",
+      "title": "GRC Lead",
+      "company": "Dream",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 72,
+      "description": "GRC Lead suggests governance, risk, and compliance leadership. If focused on financial crime/regulatory compliance (not cybersecurity), aligns with Jacob's compliance background and team leadership experience",
+      "match_tags": [
+        "Compliance",
+        "Regulatory",
+        "Risk Management"
+      ],
+      "status": "new",
+      "added_date": "2026-07-11"
+    },
+    {
       "id": "21bcc50f1e28",
       "url": "https://www.linkedin.com/jobs/view/4438908586",
       "title": "Fraud Specialist",
