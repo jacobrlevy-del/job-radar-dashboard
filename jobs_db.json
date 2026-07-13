@@ -2,6 +2,37 @@
   "version": 1,
   "jobs": [
     {
+      "id": "09e7ba1cb2e2",
+      "url": "https://www.linkedin.com/jobs/view/4437270451",
+      "title": "Risk Management Analyst JB-26701",
+      "company": "Cal (Israel Credit Cards)",
+      "location": "Bnei Brak, Tel Aviv District, Israel",
+      "score": 66,
+      "description": "Good match: Risk Management Analyst in banking/financial services context. Aligns with Jacob's target risk roles, though specifics unclear",
+      "match_tags": [
+        "Risk Analyst",
+        "Financial Services"
+      ],
+      "status": "new",
+      "added_date": "2026-07-13"
+    },
+    {
+      "id": "2b5ed5fc3f6a",
+      "url": "https://www.linkedin.com/jobs/view/4434624642",
+      "title": "Senior Data Analyst -Fraud Risk Strategy",
+      "company": "PayPal",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 71,
+      "description": "Good match: Fraud Risk Analyst role at major payments company PayPal. Aligns with Jacob's fraud and risk expertise, though title emphasizes 'Data' analyst",
+      "match_tags": [
+        "Fraud Risk",
+        "Analyst",
+        "Payments"
+      ],
+      "status": "new",
+      "added_date": "2026-07-13"
+    },
+    {
       "id": "6f9382cbf3a2",
       "url": "https://www.linkedin.com/jobs/view/4437211333",
       "title": "KYC Support Specialist",
