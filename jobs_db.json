@@ -2,6 +2,38 @@
   "version": 1,
   "jobs": [
     {
+      "id": "8bd2dd034935",
+      "url": "https://www.linkedin.com/jobs/view/4437641968",
+      "title": "Customer Onboarding Manager - Position No. 1692",
+      "company": "IBI Investment House",
+      "location": "Tel Aviv District, Israel",
+      "score": 66,
+      "description": "Customer Onboarding Manager is KYC-adjacent. Banking/investment context aligns with Jacob's KYC and underwriting expertise. Onboarding inherently involves KYC processes",
+      "match_tags": [
+        "KYC",
+        "Onboarding",
+        "Banking"
+      ],
+      "status": "new",
+      "added_date": "2026-07-14"
+    },
+    {
+      "id": "1a1fe09e0428",
+      "url": "https://www.linkedin.com/jobs/view/4437671588",
+      "title": "AML Compliance & Controls Specialist JB-26754",
+      "company": "Cal (Israel Credit Cards)",
+      "location": "Bnei Brak, Tel Aviv District, Israel",
+      "score": 88,
+      "description": "Direct match to target role. AML + Compliance at payments company (credit cards). Perfect alignment with Jacob's 15+ years AML/KYC experience at Payoneer and Wix Payments",
+      "match_tags": [
+        "AML",
+        "Compliance",
+        "Payments"
+      ],
+      "status": "new",
+      "added_date": "2026-07-14"
+    },
+    {
       "id": "c6bebcec4160",
       "url": "https://www.linkedin.com/jobs/view/4438588606",
       "title": "GRC Solution Practitioner",
