@@ -2,6 +2,76 @@
   "version": 1,
   "jobs": [
     {
+      "id": "fea7c67e94fb",
+      "url": "https://www.linkedin.com/jobs/view/4438498160",
+      "title": "חתמ/ת אשראי Underwriter",
+      "company": "BLender Financial Technologies",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "score": 76,
+      "description": "Title match on Underwriting",
+      "match_tags": [
+        "Underwriting"
+      ],
+      "status": "new",
+      "added_date": "2026-07-16"
+    },
+    {
+      "id": "95d681879d58",
+      "url": "https://www.linkedin.com/jobs/view/4435695895",
+      "title": "Medical Underwriter",
+      "company": "L.P.M. (Israel) LTD",
+      "location": "Kiryat Ono, Tel Aviv District, Israel",
+      "score": 76,
+      "description": "Title match on Underwriting",
+      "match_tags": [
+        "Underwriting"
+      ],
+      "status": "new",
+      "added_date": "2026-07-16"
+    },
+    {
+      "id": "65e2115f8be7",
+      "url": "https://www.linkedin.com/jobs/view/4440543674",
+      "title": "Security Operations &amp; Compliance Lead",
+      "company": "Deloitte",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-16"
+    },
+    {
+      "id": "cbba752ffbc3",
+      "url": "https://www.linkedin.com/jobs/view/4437122192",
+      "title": "Associate Director, SOX Compliance International Markets",
+      "company": "Teva Pharmaceuticals",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-16"
+    },
+    {
+      "id": "f621aa93cfb7",
+      "url": "https://www.linkedin.com/jobs/view/4439132467",
+      "title": "Regulatory Affairs &amp; Compliance Specialist",
+      "company": "MediWound",
+      "location": "Yavne, Center District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-16"
+    },
+    {
       "id": "506b6ebd072f",
       "url": "https://www.linkedin.com/jobs/view/4435654566",
       "title": "אנליסט.ית אשראי עסקי וחיתום",
