@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "5a60b8c05fdc",
+      "url": "https://www.linkedin.com/jobs/view/4442711422",
+      "title": "Manager, Global Quality Compliance Management",
+      "company": "Teva Pharmaceuticals",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-20"
+    },
+    {
+      "id": "598c30eb6ac4",
+      "url": "https://www.linkedin.com/jobs/view/4366382120",
+      "title": "Quality Compliance Specialist",
+      "company": "Integra LifeSciences",
+      "location": "Haifa, Haifa District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-07-20"
+    },
+    {
       "id": "5adddfda4f71",
       "url": "https://www.linkedin.com/jobs/view/4440545105",
       "title": "Information Technology Compliance Associate",
