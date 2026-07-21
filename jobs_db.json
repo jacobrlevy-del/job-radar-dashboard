@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "52d05540cd14",
+      "url": "https://www.linkedin.com/jobs/view/4443303609",
+      "title": "Senior Client Relationship Manager – AML &amp; Compliance",
+      "company": "KPMG Israel",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 90,
+      "description": "Title match on AML",
+      "match_tags": [
+        "AML"
+      ],
+      "status": "new",
+      "added_date": "2026-07-21"
+    },
+    {
       "id": "5a60b8c05fdc",
       "url": "https://www.linkedin.com/jobs/view/4442711422",
       "title": "Manager, Global Quality Compliance Management",
