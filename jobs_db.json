@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "fe8949f3f41e",
+      "url": "https://www.linkedin.com/jobs/view/4444114983",
+      "title": "Risk Analyst",
+      "company": "Strauss Group",
+      "location": "Petah Tikva, Center District, Israel",
+      "score": 68,
+      "description": "Title match on Risk",
+      "match_tags": [
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-07-29"
+    },
+    {
       "id": "065d76a1ffc5",
       "url": "https://www.linkedin.com/jobs/view/4442854382",
       "title": "Payments Regulatory &amp; Compliance Lead",
