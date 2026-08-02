@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "6d0ef4bfd522",
+      "url": "https://www.linkedin.com/jobs/view/4445847207",
+      "title": "Underwriter חתמ/ת אשראי",
+      "company": "BLender Financial Technologies",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "score": 76,
+      "description": "Title match on Underwriting",
+      "match_tags": [
+        "Underwriting"
+      ],
+      "status": "new",
+      "added_date": "2026-08-02"
+    },
+    {
+      "id": "cdab1f9994e1",
+      "url": "https://www.linkedin.com/jobs/view/4445831996",
+      "title": "Governance Risk Compliance Specialist",
+      "company": "Logica-IT",
+      "location": "Rishon LeZion, Center District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-08-02"
+    },
+    {
       "id": "657f5ede4f1b",
       "url": "https://www.linkedin.com/jobs/view/4445829812",
       "title": "Microsoft 365 Compliance &amp; Purview Specialist (25409)",
