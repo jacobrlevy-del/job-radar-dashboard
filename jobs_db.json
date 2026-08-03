@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "4c4b32a77c71",
+      "url": "https://www.linkedin.com/jobs/view/4447899470",
+      "title": "Senior Director, Fraud Prevention &amp; Platform Integrity",
+      "company": "Rakuten Viber",
+      "location": "Bnei Brak, Tel Aviv District, Israel",
+      "score": 78,
+      "description": "Title match on Fraud",
+      "match_tags": [
+        "Fraud"
+      ],
+      "status": "new",
+      "added_date": "2026-08-03"
+    },
+    {
+      "id": "1157d147bc02",
+      "url": "https://www.linkedin.com/jobs/view/4448109350",
+      "title": "Chargeback Analyst",
+      "company": "justt",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 76,
+      "description": "Title match on Payments Risk",
+      "match_tags": [
+        "Payments Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-08-03"
+    },
+    {
       "id": "6d0ef4bfd522",
       "url": "https://www.linkedin.com/jobs/view/4445847207",
       "title": "Underwriter חתמ/ת אשראי",
