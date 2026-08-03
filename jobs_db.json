@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "2b349b889677",
+      "url": "https://www.linkedin.com/jobs/view/4448151966",
+      "title": "Risk Analyst",
+      "company": "8fig",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Title match on Risk",
+      "match_tags": [
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-08-03"
+    },
+    {
       "id": "4c4b32a77c71",
       "url": "https://www.linkedin.com/jobs/view/4447899470",
       "title": "Senior Director, Fraud Prevention &amp; Platform Integrity",
