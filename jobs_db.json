@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "2a7c15e37021",
+      "url": "https://www.linkedin.com/jobs/view/4447998064",
+      "title": "Environmental Compliance Manager",
+      "company": "AudioCodes",
+      "location": "Or Yehuda, Tel Aviv District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-08-03"
+    },
+    {
+      "id": "fc95708bb30a",
+      "url": "https://www.linkedin.com/jobs/view/4448170841",
+      "title": "Compliance Specialist - 24378",
+      "company": "comblack",
+      "location": "Center District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-08-03"
+    },
+    {
       "id": "2b349b889677",
       "url": "https://www.linkedin.com/jobs/view/4448151966",
       "title": "Risk Analyst",
