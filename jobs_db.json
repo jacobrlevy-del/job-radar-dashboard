@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "a42988538e91",
+      "url": "https://www.linkedin.com/jobs/view/4446628780",
+      "title": "Purview - Microsoft 365 Compliance",
+      "company": "MatchPointIT",
+      "location": "Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-08-04"
+    },
+    {
       "id": "ac648ccd130a",
       "url": "https://www.linkedin.com/jobs/view/4448225398",
       "title": "Regulatory Compliance Manager (Data Protection and AI)",
