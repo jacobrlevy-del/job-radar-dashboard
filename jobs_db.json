@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "373dfb94c374",
+      "url": "https://www.linkedin.com/jobs/view/4452584635",
+      "title": "Trade Compliance Specialist",
+      "company": "Elbit Systems Israel",
+      "location": "Yoqneam Illit, North District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-08-18"
+    },
+    {
+      "id": "19db74982586",
+      "url": "https://www.linkedin.com/jobs/view/4452589537",
+      "title": "Trade Compliance Manager",
+      "company": "Elbit Systems Israel",
+      "location": "Yoqneam Illit, North District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-08-18"
+    },
+    {
       "id": "7f93eab1aedf",
       "url": "https://www.linkedin.com/jobs/view/4452573037",
       "title": "Head of Compliance",
