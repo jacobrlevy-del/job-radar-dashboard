@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "89d05fb127c4",
+      "url": "https://www.linkedin.com/jobs/view/4454902939",
+      "title": "Senior Analyst, Security Compliance",
+      "company": "Kraken",
+      "location": "Israel",
+      "score": 70,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-08-19"
+    },
+    {
       "id": "373dfb94c374",
       "url": "https://www.linkedin.com/jobs/view/4452584635",
       "title": "Trade Compliance Specialist",
