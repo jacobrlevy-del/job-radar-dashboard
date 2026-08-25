@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "762db79d87d7",
+      "url": "https://www.linkedin.com/jobs/view/4457454586",
+      "title": "Technology Risk Manager",
+      "company": "HUNTHEAD",
+      "location": "Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Title match on Risk",
+      "match_tags": [
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-08-25"
+    },
+    {
+      "id": "54e5c7c5219f",
+      "url": "https://www.linkedin.com/jobs/view/4457451199",
+      "title": "Forensic and Fraud Risk Management Consultant",
+      "company": "KPMG Israel",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 78,
+      "description": "Title match on Fraud",
+      "match_tags": [
+        "Fraud"
+      ],
+      "status": "new",
+      "added_date": "2026-08-25"
+    },
+    {
       "id": "1ac4ff2c769b",
       "url": "https://www.linkedin.com/jobs/view/4457103464",
       "title": "Risk Manager",
