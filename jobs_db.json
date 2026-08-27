@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "0f07fd1dacb0",
+      "url": "https://www.linkedin.com/jobs/view/4458018150",
+      "title": "Senior Product Security Compliance Architect",
+      "company": "NVIDIA AI",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-08-27"
+    },
+    {
       "id": "834feefb8cf8",
       "url": "https://www.linkedin.com/jobs/view/4458640224",
       "title": "Technology Risk Manager",
