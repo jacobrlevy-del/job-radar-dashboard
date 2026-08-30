@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "d988d0bddae9",
+      "url": "https://www.linkedin.com/jobs/view/4458858003",
+      "title": "Anti-Money Laundering Officer",
+      "company": "iTalent - Hire Smarter",
+      "location": "Center District, Israel",
+      "score": 90,
+      "description": "Title match on AML",
+      "match_tags": [
+        "AML"
+      ],
+      "status": "new",
+      "added_date": "2026-08-30"
+    },
+    {
       "id": "48dfd03e08ca",
       "url": "https://www.linkedin.com/jobs/view/4458910180",
       "title": "Senior Product Security Compliance Architect",
