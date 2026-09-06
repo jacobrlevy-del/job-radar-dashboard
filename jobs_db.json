@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "b89fff4faa7a",
+      "url": "https://www.linkedin.com/jobs/view/4464037866",
+      "title": "Director, Product Management - KYC",
+      "company": "Payoneer",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "score": 88,
+      "description": "Title match on KYC",
+      "match_tags": [
+        "KYC"
+      ],
+      "status": "new",
+      "added_date": "2026-09-06"
+    },
+    {
       "id": "02130feb636b",
       "url": "https://www.linkedin.com/jobs/view/4460476165",
       "title": "Product Environmental Compliance Specialist",
