@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "a903cc536eac",
+      "url": "https://www.linkedin.com/jobs/view/4462222801",
+      "title": "Security Risk Lead",
+      "company": "Nebius",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Title match on Risk",
+      "match_tags": [
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-09-07"
+    },
+    {
       "id": "b89fff4faa7a",
       "url": "https://www.linkedin.com/jobs/view/4464037866",
       "title": "Director, Product Management - KYC",
