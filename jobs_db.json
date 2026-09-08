@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "674b40eb5ef2",
+      "url": "https://www.linkedin.com/jobs/view/4462236551",
+      "title": "KYC Analyst, Onboarding Operations, EMEA",
+      "company": "Airwallex",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 88,
+      "description": "Title match on KYC",
+      "match_tags": [
+        "KYC"
+      ],
+      "status": "new",
+      "added_date": "2026-09-08"
+    },
+    {
       "id": "a903cc536eac",
       "url": "https://www.linkedin.com/jobs/view/4462222801",
       "title": "Security Risk Lead",
