@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "f632b4abd1ef",
+      "url": "https://www.linkedin.com/jobs/view/4462505773",
+      "title": "Senior KYC Analyst, Onboarding operations, EMEA",
+      "company": "Airwallex",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 88,
+      "description": "Title match on KYC",
+      "match_tags": [
+        "KYC"
+      ],
+      "status": "new",
+      "added_date": "2026-09-08"
+    },
+    {
       "id": "44984620bbc5",
       "url": "https://www.linkedin.com/jobs/view/4464602091",
       "title": "Junior Compliance Representative",
