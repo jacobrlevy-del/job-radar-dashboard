@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "2dae3974e7cc",
+      "url": "https://www.linkedin.com/jobs/view/4465688601",
+      "title": "Insurance Underwriter",
+      "company": "Compie Technologies",
+      "location": "Haifa District, Israel",
+      "score": 76,
+      "description": "Title match on Underwriting",
+      "match_tags": [
+        "Underwriting"
+      ],
+      "status": "new",
+      "added_date": "2026-09-11"
+    },
+    {
       "id": "f632b4abd1ef",
       "url": "https://www.linkedin.com/jobs/view/4462505773",
       "title": "Senior KYC Analyst, Onboarding operations, EMEA",
