@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "ec23e025fab4",
+      "url": "https://www.linkedin.com/jobs/view/4467704618",
+      "title": "Junior Fraud Analyst",
+      "company": "Taboola",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 78,
+      "description": "Title match on Fraud",
+      "match_tags": [
+        "Fraud"
+      ],
+      "status": "new",
+      "added_date": "2026-09-15"
+    },
+    {
       "id": "e86aa423aab3",
       "url": "https://www.linkedin.com/jobs/view/4467076155",
       "title": "Compliance Specialist",
