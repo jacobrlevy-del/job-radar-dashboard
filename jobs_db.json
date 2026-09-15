@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "e87254e81b0c",
+      "url": "https://www.linkedin.com/jobs/view/4465531093",
+      "title": "Junior Mortgage Underwriter- Position No. 1746",
+      "company": "IBI Investment House",
+      "location": "Haifa, Haifa District, Israel",
+      "score": 76,
+      "description": "Title match on Underwriting",
+      "match_tags": [
+        "Underwriting"
+      ],
+      "status": "new",
+      "added_date": "2026-09-15"
+    },
+    {
+      "id": "fc05850a0d24",
+      "url": "https://www.linkedin.com/jobs/view/4467730347",
+      "title": "Compliance Officer",
+      "company": "ONE ZERO BANK",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-09-15"
+    },
+    {
       "id": "ec23e025fab4",
       "url": "https://www.linkedin.com/jobs/view/4467704618",
       "title": "Junior Fraud Analyst",
