@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "bf847e070a4a",
+      "url": "https://www.linkedin.com/jobs/view/4465950828",
+      "title": "Credit Risk Analyst",
+      "company": "Harel Insurance &amp; Finance",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Title match on Risk; industry context in snippet (+2)",
+      "match_tags": [
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-09-16"
+    },
+    {
       "id": "39e9c5b45c89",
       "url": "https://www.linkedin.com/jobs/view/4466191932",
       "title": "Compliance Specialist",
