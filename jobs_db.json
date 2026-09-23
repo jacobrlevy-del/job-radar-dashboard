@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "abc033697ad3",
+      "url": "https://www.linkedin.com/jobs/view/4469469488",
+      "title": "Compliance Operations Expert - Infra",
+      "company": "Rapyd",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-09-23"
+    },
+    {
       "id": "99f3d8d0e5b5",
       "url": "https://www.linkedin.com/jobs/view/4469463103",
       "title": "Financial Crime Compliance Manager",
