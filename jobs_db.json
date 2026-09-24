@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "9e16e7e8be5f",
+      "url": "https://www.linkedin.com/jobs/view/4471464464",
+      "title": "Technology Risk Manager",
+      "company": "comblack",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Title match on Risk",
+      "match_tags": [
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-09-24"
+    },
+    {
       "id": "abc033697ad3",
       "url": "https://www.linkedin.com/jobs/view/4469469488",
       "title": "Compliance Operations Expert - Infra",
