@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "06a49347ef17",
+      "url": "https://www.linkedin.com/jobs/view/4470553936",
+      "title": "Senior Fraud Analyst",
+      "company": "Checkout.com",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 78,
+      "description": "Title match on Fraud",
+      "match_tags": [
+        "Fraud"
+      ],
+      "status": "new",
+      "added_date": "2026-09-26"
+    },
+    {
       "id": "9e16e7e8be5f",
       "url": "https://www.linkedin.com/jobs/view/4471464464",
       "title": "Technology Risk Manager",
