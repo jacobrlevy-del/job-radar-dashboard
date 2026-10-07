@@ -2,6 +2,231 @@
   "version": 1,
   "jobs": [
     {
+      "id": "5b8b60f82771",
+      "url": "https://himalayas.app/companies/makina/jobs/protocol-risk-lead",
+      "title": "Protocol Risk Lead",
+      "company": "Makina",
+      "location": "Remote — Worldwide",
+      "score": 70,
+      "description": "Title match on Risk; industry context in snippet (+2); Remote — Worldwide",
+      "match_tags": [
+        "Risk",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "c3b708642e25",
+      "url": "https://himalayas.app/companies/tala/jobs/senior-credit-risk-manager",
+      "title": "Senior Credit Risk Manager",
+      "company": "Tala",
+      "location": "Remote — Worldwide",
+      "score": 70,
+      "description": "Title match on Risk; industry context in snippet (+2); Remote — Worldwide",
+      "match_tags": [
+        "Risk",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "beead90c8447",
+      "url": "https://himalayas.app/companies/amynta-group/jobs/underwriter",
+      "title": "Underwriter",
+      "company": "Amynta Group",
+      "location": "Remote — Israel eligible",
+      "score": 76,
+      "description": "Title match on Underwriting; Remote — Israel eligible",
+      "match_tags": [
+        "Underwriting",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "c911dc088720",
+      "url": "https://himalayas.app/companies/maxwell/jobs/contract-due-diligence-underwriter",
+      "title": "Contract Due Diligence Underwriter",
+      "company": "Maxwell",
+      "location": "Remote — Worldwide",
+      "score": 80,
+      "description": "Title match on Underwriting; industry context in snippet (+4); Remote — Worldwide",
+      "match_tags": [
+        "Underwriting",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "44af113d4306",
+      "url": "https://himalayas.app/companies/signers-national/jobs/e-s-package-underwriter",
+      "title": "E&S Package Underwriter",
+      "company": "Signers National",
+      "location": "Remote — Worldwide",
+      "score": 78,
+      "description": "Title match on Underwriting; industry context in snippet (+2); Remote — Worldwide",
+      "match_tags": [
+        "Underwriting",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "793cc9e1dbc8",
+      "url": "https://himalayas.app/companies/tripledot-studios/jobs/fraud-analyst",
+      "title": "Fraud Analyst",
+      "company": "Tripledot Studios",
+      "location": "Remote — Worldwide",
+      "score": 80,
+      "description": "Title match on Fraud; industry context in snippet (+2); Remote — Worldwide",
+      "match_tags": [
+        "Fraud",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "d92292e9af3f",
+      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/quality-control-underwriter",
+      "title": "Quality Control Underwriter",
+      "company": "NightOwl Consulting",
+      "location": "Remote — Worldwide",
+      "score": 78,
+      "description": "Title match on Underwriting; industry context in snippet (+2); Remote — Worldwide",
+      "match_tags": [
+        "Underwriting",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "100814f33b94",
+      "url": "https://himalayas.app/companies/remote-people/jobs/senior-hr-compliance-escalations-specialist-emea",
+      "title": "Senior HR Compliance & Escalations Specialist – EMEA",
+      "company": "Remote People",
+      "location": "Remote — Worldwide",
+      "score": 70,
+      "description": "Title match on Compliance; Remote — Worldwide",
+      "match_tags": [
+        "Compliance",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "d42d9757d66f",
+      "url": "https://himalayas.app/companies/familywell-health/jobs/security-compliance-manager",
+      "title": "Security & Compliance Manager",
+      "company": "FamilyWell Health",
+      "location": "Remote — Worldwide",
+      "score": 86,
+      "description": "Title match on Compliance; industry context in snippet (+4); Remote — Worldwide",
+      "match_tags": [
+        "Compliance",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "c4a244e1dc8c",
+      "url": "https://himalayas.app/companies/mayflower/jobs/compliance-operations-manager-traffic-content",
+      "title": "Compliance Operations Manager (Traffic & Content)",
+      "company": "Mayflower",
+      "location": "Remote — Worldwide",
+      "score": 74,
+      "description": "Title match on Compliance; industry context in snippet (+4); Remote — Worldwide",
+      "match_tags": [
+        "Compliance",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "a496991d64a3",
+      "url": "https://himalayas.app/companies/bromcom-computers-plc/jobs/compliance-officer",
+      "title": "Compliance Officer",
+      "company": "Bromcom Computers Plc",
+      "location": "Remote — Worldwide",
+      "score": 82,
+      "description": "Title match on Compliance; Remote — Worldwide",
+      "match_tags": [
+        "Compliance",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "259579cf6165",
+      "url": "https://himalayas.app/companies/cxm/jobs/group-chief-compliance-legal-officer",
+      "title": "Group Chief Compliance & Legal Officer",
+      "company": "CXM",
+      "location": "Remote — Worldwide",
+      "score": 72,
+      "description": "Title match on Compliance; industry context in snippet (+2); Remote — Worldwide",
+      "match_tags": [
+        "Compliance",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "6ddb318629e1",
+      "url": "https://himalayas.app/companies/sumer/jobs/compliance-assurance-manager",
+      "title": "Compliance Assurance Manager",
+      "company": "Sumer",
+      "location": "Remote — Worldwide",
+      "score": 72,
+      "description": "Title match on Compliance; industry context in snippet (+2); Remote — Worldwide",
+      "match_tags": [
+        "Compliance",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "83bbf731bd42",
+      "url": "https://himalayas.app/companies/torrero/jobs/compliance-assistant",
+      "title": " Compliance Assistant",
+      "company": "Torrero",
+      "location": "Remote — Worldwide",
+      "score": 72,
+      "description": "Title match on Compliance; industry context in snippet (+2); Remote — Worldwide",
+      "match_tags": [
+        "Compliance",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "01b9db4f933a",
+      "url": "https://himalayas.app/companies/yedpay/jobs/payment-compliance-officer",
+      "title": "Payment Compliance Officer",
+      "company": "Yedpay",
+      "location": "Remote — Worldwide",
+      "score": 88,
+      "description": "Title match on Compliance; industry context in snippet (+6); Remote — Worldwide",
+      "match_tags": [
+        "Compliance",
+        "Remote"
+      ],
+      "status": "new",
+      "added_date": "2026-10-07"
+    },
+    {
       "id": "7857bf165d36",
       "url": "https://www.linkedin.com/jobs/view/4476160696",
       "title": "IT &amp; Compliance Manager",
