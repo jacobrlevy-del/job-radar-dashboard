@@ -2,6 +2,20 @@
   "version": 1,
   "jobs": [
     {
+      "id": "561ffe2e2b29",
+      "url": "https://www.linkedin.com/jobs/view/4474823691",
+      "title": "Security Compliance Coordinator",
+      "company": "Nebius",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-10-08"
+    },
+    {
       "id": "bbe852590527",
       "url": "https://himalayas.app/companies/tcs-education/jobs/manager-state-authorization-and-academic-compliance",
       "title": "Manager, State Authorization and Academic Compliance",
