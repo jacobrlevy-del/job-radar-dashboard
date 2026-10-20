@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "8a99305137c5",
+      "url": "https://www.linkedin.com/jobs/view/4478664611",
+      "title": "Risk Analyst",
+      "company": "Discreet Company",
+      "location": "Bnei Brak, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Title match on Risk",
+      "match_tags": [
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-10-20"
+    },
+    {
+      "id": "aeaca854229e",
+      "url": "https://www.linkedin.com/jobs/view/4478647780",
+      "title": "Anti-Money Laundering Analyst",
+      "company": "STB Union",
+      "location": "Rishon LeZion, Center District, Israel",
+      "score": 90,
+      "description": "Title match on AML",
+      "match_tags": [
+        "AML"
+      ],
+      "status": "new",
+      "added_date": "2026-10-20"
+    },
+    {
       "id": "829ff1ccb80b",
       "url": "https://www.linkedin.com/jobs/view/4480974898",
       "title": "Compliance &amp; Regulatory Officer",
