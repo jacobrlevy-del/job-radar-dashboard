@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "1581bf827562",
+      "url": "https://www.linkedin.com/jobs/view/4478994393",
+      "title": "Trade Compliance Manager",
+      "company": "Unknown",
+      "location": "Haifa, Haifa District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-10-21"
+    },
+    {
+      "id": "2502edb906b1",
+      "url": "https://www.linkedin.com/jobs/view/4480769843",
+      "title": "Compliance Officer",
+      "company": "Confidential Company",
+      "location": "Center District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-10-21"
+    },
+    {
       "id": "8a99305137c5",
       "url": "https://www.linkedin.com/jobs/view/4478664611",
       "title": "Risk Analyst",
