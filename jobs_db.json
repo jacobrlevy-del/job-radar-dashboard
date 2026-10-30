@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "044187b60bd3",
+      "url": "https://www.linkedin.com/jobs/view/4484825888",
+      "title": "Risk Manager",
+      "company": "Wise",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "score": 68,
+      "description": "Title match on Risk",
+      "match_tags": [
+        "Risk"
+      ],
+      "status": "new",
+      "added_date": "2026-10-30"
+    },
+    {
+      "id": "411706556023",
+      "url": "https://www.linkedin.com/jobs/view/4484833490",
+      "title": "AML Investigator",
+      "company": "Jobgether",
+      "location": "Israel",
+      "score": 90,
+      "description": "Title match on AML",
+      "match_tags": [
+        "AML"
+      ],
+      "status": "new",
+      "added_date": "2026-10-30"
+    },
+    {
       "id": "6c7c528596c3",
       "url": "https://www.linkedin.com/jobs/view/4483550654",
       "title": "Compliance Analyst",
