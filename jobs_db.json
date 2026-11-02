@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "41770491ed12",
+      "url": "https://www.linkedin.com/jobs/view/4485715710",
+      "title": "Credit Underwriter 198825",
+      "company": "Altshuler Shaham",
+      "location": "Tel Aviv District, Israel",
+      "score": 76,
+      "description": "Title match on Underwriting",
+      "match_tags": [
+        "Underwriting"
+      ],
+      "status": "new",
+      "added_date": "2026-11-02"
+    },
+    {
+      "id": "222288b42804",
+      "url": "https://www.linkedin.com/jobs/view/4486128550",
+      "title": "Credit Underwriter - Vehicle Loans",
+      "company": "max מקס",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "score": 76,
+      "description": "Title match on Underwriting",
+      "match_tags": [
+        "Underwriting"
+      ],
+      "status": "new",
+      "added_date": "2026-11-02"
+    },
+    {
       "id": "da905f83a7a4",
       "url": "https://www.linkedin.com/jobs/view/4486129548",
       "title": "Fraud Analyst",
