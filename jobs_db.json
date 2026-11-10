@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "0da7c5735d83",
+      "url": "https://www.linkedin.com/jobs/view/4489443157",
+      "title": "Risk and Compliance Advisor - JB-784",
+      "company": "PwC Israel",
+      "location": "Tel Aviv District, Israel",
+      "score": 70,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-11-10"
+    },
+    {
+      "id": "3f6c15933d1f",
+      "url": "https://www.linkedin.com/jobs/view/4486036326",
+      "title": "Anti-Money Laundering Specialist - 50049491",
+      "company": "Phoenix Financial",
+      "location": "Rishon LeZion, Center District, Israel",
+      "score": 90,
+      "description": "Title match on AML",
+      "match_tags": [
+        "AML"
+      ],
+      "status": "new",
+      "added_date": "2026-11-10"
+    },
+    {
       "id": "ad4d61431bc0",
       "url": "https://www.linkedin.com/jobs/view/4488781089",
       "title": "חתם/ת אלמנטרי/ת (Underwriter)",
