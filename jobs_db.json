@@ -2,6 +2,34 @@
   "version": 1,
   "jobs": [
     {
+      "id": "d39c5346d065",
+      "url": "https://www.linkedin.com/jobs/view/4492007720",
+      "title": "Security and Compliance Manager",
+      "company": "Itron, Inc",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-11-18"
+    },
+    {
+      "id": "b455cc11cdb7",
+      "url": "https://www.linkedin.com/jobs/view/4491790807",
+      "title": "Security and Compliance Manager",
+      "company": "Locusview",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "score": 82,
+      "description": "Title match on Compliance",
+      "match_tags": [
+        "Compliance"
+      ],
+      "status": "new",
+      "added_date": "2026-11-18"
+    },
+    {
       "id": "0c562954bad7",
       "url": "https://www.linkedin.com/jobs/view/4488671883",
       "title": "Compliance Officer | Financial Services",
